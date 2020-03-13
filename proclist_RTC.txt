@@ -23,3 +23,21 @@ rtc_icc_indi   sshDigger
 rtc_aoc_indi   sshDigger
 ttmpupil       pi335Ctrl
 sysMonRTC      sysMonitor
+#Processes from ICC for RTC-Only ops:
+camtip         baslerCtrl
+camtip-sw      streamWriter
+fwtelsim       hsfwCtrl
+stagek         smc100ccCtrl
+stageadc1      smc100ccCtrl
+stageadc2      smc100ccCtrl
+stagepickoff   smc100ccCtrl
+stagecamlensx  smc100ccCtrl
+stagecamlensy  smc100ccCtrl
+xt1121_1       xt1121Ctrl
+xt1121_2       xt1121Ctrl
+dcdu0          xt1121DCDU
+dcdu1          xt1121DCDU
+usbdu0         acronameUsbHub
+temprack       usbtempMon
+instCool       koolanceCtrl
+
