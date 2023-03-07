@@ -1,6 +1,8 @@
 #Processes for the MagAO-X ICC
 #process-ID    Executable
 isICC          xindiserver
+isTCSI         xindiserver
+icc_icc_istcsi sshDigger
 camsci1        picamCtrl
 camsci1-dark   shmimIntegrator
 camsci1-sw      streamWriter

@@ -6,7 +6,7 @@ pdu1              trippLitePDU
 pdu2              trippLitePDU
 pdu3              trippLitePDU
 labCool           koolanceCtrl
-tcsi              tcsInterface
+#tcsi              tcsInterface
 adctrack          adcTracker
 ktrack            kTracker
 aoc_icc_indi      sshDigger
@@ -15,6 +15,7 @@ aoc_icc_notebook      sshDigger
 aoc_rtc_notebook      sshDigger
 aoc_icc_milkzmq   sshDigger
 aoc_rtc_milkzmq   sshDigger
+aoc_icc_istcsi    sshDigger
 mzmqClientAOC_ICC mzmqClient
 mzmqClientAOC_RTC mzmqClient
 mzmqClientAOC_RTCcamwfs mzmqClient
