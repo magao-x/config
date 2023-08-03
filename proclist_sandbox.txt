@@ -1,6 +1,17 @@
 # Processes for configuration to exercise magaoxMaths
 # Process-ID            Executable
+# ==========            ==========
 isVM                    xindiserver
+
+########################################################################
+### Demo setup:  math apps and time series simulator
+########################################################################
 maths_x                 magAOXMaths
 maths_y                 magAOXMaths
 timeSeriesSimulator     timeSeriesSimulator
+
+########################################################################
+### FPGA setup:  communicate with FPGA via /dev/mem
+########################################################################
+#fpga0_um_fg             CGFSMUIfpga
+#fpga0_um_sm             CGFSMHIfpga
