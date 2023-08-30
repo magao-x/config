@@ -5,6 +5,7 @@ pdu0              trippLitePDU
 pdu1              trippLitePDU
 pdu2              trippLitePDU
 pdu3              trippLitePDU
+pduhcat           trippLitePDU
 labCool           koolanceCtrl
 #tcsi              tcsInterface
 adctrack          adcTracker
