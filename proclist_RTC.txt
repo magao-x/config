@@ -54,5 +54,4 @@ gmtseg4       pi335Ctrl
 gmtseg5       pi335Ctrl
 gmtseg6       pi335Ctrl
 gmtpicos      picoMotorCtrl
-camngws       baslerCtrl
 
