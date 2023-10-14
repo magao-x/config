@@ -1,8 +1,8 @@
 #Processes for the MagAO-X RTC
 #process-ID    Executable
 isRTC          xindiserver
-holoop         cacaoInterface
-hogainctrl     userGainCtrl
+#holoop         cacaoInterface
+#hogainctrl     userGainCtrl
 wloop          cacaoInterface
 wgainctrl      userGainCtrl
 #camwfs         ocam2KCtrl
@@ -29,7 +29,7 @@ tweeterModes   dmMode
 dmwoofer       alpaoCtrl
 dmwoofer-avg   shmimIntegrator
 wooferModes    dmMode
-t2wOffloader   t2wOffloader
+#t2wOffloader   t2wOffloader
 w2tcsOffloader w2tcsOffloader
 mzmqServerRTC  mzmqServer
 mzmqServerRTCcamwfs mzmqServer
@@ -44,9 +44,9 @@ sysMonRTC      sysMonitor
 turbsim       acesxeCtrl
 stageturbsim  zaberCtrl
 zaberLLRTC    zaberLowLevel
-aol1_modevalPSDs modalPSDs
-aol1_modevalWFS_cbuff streamCircBuff
-aol1_modevalDM_cbuff streamCircBuff
+#aol1_modevalPSDs modalPSDs
+#aol1_modevalWFS_cbuff streamCircBuff
+#aol1_modevalDM_cbuff streamCircBuff
 gmtseg1       pi335Ctrl
 gmtseg2       pi335Ctrl
 gmtseg3       pi335Ctrl
