@@ -12,6 +12,7 @@ camsci2-dark   shmimIntegrator
 camsci2-sw      streamWriter
 camsci2-avg    shmimIntegrator
 #camlowfs       andorCtrl
+camlowfs       pvcamCtrl
 #camlowfs-dark  shmimIntegrator
 #camlowfs-sw     streamWriter
 #camlowfs-avg shmimIntegrator
