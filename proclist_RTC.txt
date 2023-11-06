@@ -47,6 +47,9 @@ zaberLLRTC    zaberLowLevel
 #aol1_modevalPSDs modalPSDs
 #aol1_modevalWFS_cbuff streamCircBuff
 #aol1_modevalDM_cbuff streamCircBuff
+
+stageperixy    kcubeCtrl
+
 gmtseg1       pi335Ctrl
 gmtseg2       pi335Ctrl
 gmtseg3       pi335Ctrl
