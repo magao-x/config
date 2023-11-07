@@ -24,6 +24,6 @@ mzmqClientAOC_RTCpsds mzmqClient
 mzmqServerAOC     mzmqServer
 # sysMonAOC         sysMonitor
 observers         observerCtrl
-fxngensync         siglentSDG
+#fxngensync         siglentSDG
 purepyindi_example purepyindi_example
 maggieo_x            maggieoCtrl
