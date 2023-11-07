@@ -71,4 +71,4 @@ logainctrl     userGainCtrl
 #camsci1-char   imgChar
 #camsci2-char   imgChar
 camvisx        visxCtrl
-camngws       baslerCtrl
+camngws         baslerCtrl
