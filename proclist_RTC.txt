@@ -5,8 +5,7 @@ isRTC          xindiserver
 #hogainctrl     userGainCtrl
 wloop          cacaoInterface
 wgainctrl      userGainCtrl
-#camwfs         ocam2KCtrl
-camwfs         andorCtrl
+camwfs         ocam2KCtrl
 camwfs-dark    shmimIntegrator
 camwfs-sw      streamWriter
 #camwfs-slopes  pwfsSlopeCalc
