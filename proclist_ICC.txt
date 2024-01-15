@@ -1,6 +1,7 @@
 #Processes for the MagAO-X ICC
 #process-ID    Executable
 isICC          xindiserver
+#isICCTest      xindiserver
 #isTCSI         xindiserver
 #icc_icc_istcsi sshDigger
 camsci1        picamCtrl
@@ -72,6 +73,6 @@ logainctrl     userGainCtrl
 #camsci2-char   imgChar
 camvisx        visxCtrl
 camngws         baslerCtrl
-
+coralign       coralign
 camsci1-tweeteralign  dmPokeCenter
 
