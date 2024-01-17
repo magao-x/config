@@ -17,12 +17,6 @@ camlowfs-dark  shmimIntegrator
 camlowfs-sw     streamWriter
 camlowfs-avg shmimIntegrator
 #fliptip        flipperCtrl
-#camtip         baslerCtrl
-#camtip-sw      streamWriter
-#flipwfsf       flipperCtrl
-#flipacq        flipperCtrl
-#camacq         baslerCtrl
-#camacq-sw      streamWriter
 fwpupil        filterWheelCtrl
 fwfpm          filterWheelCtrl
 fwlyot	       filterWheelCtrl
@@ -30,7 +24,6 @@ fwlowfs        filterWheelCtrl
 fwsci1         filterWheelCtrl
 fwsci2         filterWheelCtrl
 fwscind        hsfwCtrl
-#fwtelsim       hsfwCtrl
 zaberLowLevel  zaberLowLevel
 stagelowfs     zaberCtrl
 stagesci1      zaberCtrl
