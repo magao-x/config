@@ -62,6 +62,7 @@ logainctrl     userGainCtrl
 camvisx        visxCtrl
 camngws         baslerCtrl
 coralign       coralign
+coralignControl    closedLoopIndi
 tweeteralign-camsci1-wfs dmPokeCenter
 tweeteralign-camsci1-ctrl closedLoopIndi 
 
