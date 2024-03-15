@@ -40,8 +40,8 @@ rtc_icc_istcsi sshDigger
 ttmpupil       pi335Ctrl
 #sysMonRTC      sysMonitor
 #turbsim       acesxeCtrl
-#stageturbsim  zaberCtrl
-#zaberLLRTC    zaberLowLevel
+stageff  zaberCtrl
+zaberLLRTC    zaberLowLevel
 aol1_modevalPSDs modalPSDs
 aol1_modevalWFS_cbuff streamCircBuff
 #aol1_modevalDM_cbuff streamCircBuff
