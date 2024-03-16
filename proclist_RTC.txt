@@ -58,11 +58,4 @@ fwtelsim   hsfwCtrl
 usbdu0     acronameUsbHub
 
 
-gmtseg1       pi335Ctrl
-gmtseg2       pi335Ctrl
-gmtseg3       pi335Ctrl
-gmtseg4       pi335Ctrl
-gmtseg5       pi335Ctrl
-gmtseg6       pi335Ctrl
-gmtpicos      picoMotorCtrl
 
