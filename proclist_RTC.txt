@@ -18,6 +18,7 @@ camsci1RTC-sw  streamWriter
 camsci2RTC-sw  streamWriter
 camlowfsRTC-sw streamWriter
 camtipRTC-sw   streamWriter
+fxngensync     siglentSDG
 fxngenmodwfs   siglentSDG
 modwfs         ttmModulator
 dmtweeter      bmcCtrl
