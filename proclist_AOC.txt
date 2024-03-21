@@ -6,7 +6,7 @@ pdu1              trippLitePDU
 pdu2              trippLitePDU
 pdu3              trippLitePDU
 labCool           koolanceCtrl
-#tcsi              tcsInterface
+tcsi              tcsInterface
 adctrack          adcTracker
 ktrack            kTracker
 aoc_icc_indi      sshDigger
@@ -24,6 +24,6 @@ mzmqServerAOC     mzmqServer
 # sysMonAOC         sysMonitor
 observers         observerCtrl
 purepyindi_example purepyindi_example
-maggieo_x            maggieoCtrl
+maggieo_x           audibleAlerts 
 labrules           stateRuleEngine
 
