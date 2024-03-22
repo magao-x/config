@@ -65,4 +65,15 @@ coralign       coralign
 coralignControl    closedLoopIndi
 tweeteralign-camsci1-wfs dmPokeCenter
 tweeteralign-camsci1-ctrl closedLoopIndi 
+ncpcalign-camsci1-wfs dmPokeCenter
 pyexample pythonIndiExample
+
+
+dm02disp-sw streamWriter
+dm02disp01-sw streamWriter
+dm02disp03-sw streamWriter
+dm02disp04-sw streamWriter
+dm02disp08-sw streamWriter
+dm02disp09-sw streamWriter
+
+
