@@ -1,9 +1,6 @@
 #Processes for the MagAO-X ICC
 #process-ID    Executable
 isICC          xindiserver
-#isICCTest      xindiserver
-#isTCSI         xindiserver
-#icc_icc_istcsi sshDigger
 camsci1        picamCtrl
 camsci1-dark   shmimIntegrator
 camsci1-sw      streamWriter
@@ -16,7 +13,6 @@ camlowfs       pvcamCtrl
 camlowfs-dark  shmimIntegrator
 camlowfs-sw     streamWriter
 camlowfs-avg shmimIntegrator
-#fliptip        flipperCtrl
 fwpupil        filterWheelCtrl
 fwfpm          filterWheelCtrl
 fwlyot	       filterWheelCtrl
@@ -49,6 +45,7 @@ usbdu1         acronameUsbHub
 dmncpc         bmcCtrl
 rhncpc         rhusbMon
 ncpcModes      dmMode
+lowfsModes     dmMode
 mzmqServerICC  mzmqServer
 mzmqServerICC_calib mzmqServer
 icc_aoc_indi   sshDigger
@@ -58,7 +55,6 @@ temprack       usbtempMon
 instCool       koolanceCtrl
 loloop         cacaoInterface
 logainctrl     userGainCtrl
-#tcsi           tcsInterface
 camvisx        visxCtrl
 camngws         baslerCtrl
 coralign       coralign
