@@ -58,5 +58,9 @@ fliptip    flipperCtrl
 fwtelsim   hsfwCtrl
 usbdu0     acronameUsbHub
 
-
+dm00disp-sw streamWriter
+dm00disp01-sw streamWriter
+dm00disp03-sw streamWriter
+dm01disp-sw streamWriter
+dm01disp03-sw streamWriter
 
