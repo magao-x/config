@@ -62,6 +62,10 @@ coralignControl    closedLoopIndi
 tweeteralign-camsci1-wfs dmPokeCenter
 tweeteralign-camsci1-ctrl closedLoopIndi 
 ncpcalign-camsci1-wfs dmPokeCenter
+
+ncpcalign-lyot-camsci1-wfs dmPokeCenter
+ncpcalign-bump-camsci1-wfs dmPokeCenter
+
 pyexample pythonIndiExample
 
 
