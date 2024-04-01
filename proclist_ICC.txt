@@ -66,6 +66,8 @@ ncpcalign-lyot-camsci1-wfs dmPokeCenter
 ncpcalign-bump-camsci1-wfs dmPokeCenter
 ncpcalign-pupil-camsci1-wfs dmPokeCenter
 
+dmncpc-avg shmimIntegrator
+
 pyexample pythonIndiExample
 
 
