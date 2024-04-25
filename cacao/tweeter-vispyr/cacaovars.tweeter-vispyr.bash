@@ -11,7 +11,6 @@ export CACAO_LOOPNUMBER="1"
 # If DM is single dimension, enter "1" for DMsize
 #
 export CACAO_DMINDEX="01"    # Hardware DM - connected to physical DM
-export CACAO_DMSIMINDEX="11" # Simulation DM
 export CACAO_DMxsize="50"
 export CACAO_DMysize="50"
 
@@ -47,6 +46,12 @@ export CACAO_WFSSTREAM_PROCESSED="OFF"
 export CACAO_LOOPDATALOGDIR="$(pwd)/datalogdir"
 
 
+# ========================================
+#            Simulator Setup
+# ========================================
+export CACAO_DMSIMINDEX="11" # Simulation DM
+export CACAO_WFSSTREAMSIM="camwfs_sim" # Simulation camera stream
+
 
 # ========================================
 #       FPS processes to be set up
@@ -56,10 +61,6 @@ export CACAO_LOOPDATALOGDIR="$(pwd)/datalogdir"
 # Manages mutipe DM channels
 #
 export CACAO_FPSPROC_DMCH2DISP="ON"
-
-# DM turbulence simulator
-export CACAO_FPSPROC_DMATMTURB="ON"
-
 
 # Measure hardware latency
 #
@@ -131,7 +132,30 @@ export CACAO_FPSPROC_MVMGPU_WFSMODEVAL2DM="ON"
 #export CACAO_FPSPROC_MKPF="ON"
 #export CACAO_FPSPROC_APPLYPF="ON"
 
+# ==================================
+#     Simulator Processes
+# =================================
+# DM turbulence simulator
+export CACAO_FPSPROC_DMATMTURB="ON"
 
+# DM combination simulator
+# Manages mutipe DM channels
+#
+export CACAO_FPSPROC_DMCH2DISPSIM="ON"
+
+# Delay stream: emulates time lag in hardware
+# Used to simulate a time lag
+#
+export CACAO_FPSPROC_DMSIMDELAY="ON"
+
+# MVM lop on GPU: used to simulate hardware
+#
+export CACAO_FPSPROC_SIMMVMGPU="ON"
+
+# Camera simulator
+#
+export CACAO_FPSPROC_WFSCAMSIM="ON"
+export CACAO_FPS_wfscamsim_fluxtotal="1000000"
 
 
 
