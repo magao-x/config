@@ -1,0 +1,9 @@
+#Processes for the MagAO-X COC
+#process-ID       Executable
+isCOC             xindiserver
+coc_icc_indi      sshDigger
+coc_rtc_indi      sshDigger
+coc_aoc_indi      sshDigger
+coc_aoc_sup       sshDigger
+coc_icc_tcsi      sshDigger
+mzmqClientCOC_ICC mzmqClient

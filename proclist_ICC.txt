@@ -1,8 +1,6 @@
 #Processes for the MagAO-X ICC
 #process-ID    Executable
 isICC          xindiserver
-isTCSI         xindiserver
-icc_icc_istcsi sshDigger
 camsci1        picamCtrl
 camsci1-dark   shmimIntegrator
 camsci1-sw      streamWriter
@@ -11,17 +9,10 @@ camsci2        picamCtrl
 camsci2-dark   shmimIntegrator
 camsci2-sw      streamWriter
 camsci2-avg    shmimIntegrator
-camlowfs       andorCtrl
+camlowfs       pvcamCtrl
 camlowfs-dark  shmimIntegrator
 camlowfs-sw     streamWriter
 camlowfs-avg shmimIntegrator
-fliptip        flipperCtrl
-camtip         baslerCtrl
-camtip-sw      streamWriter
-flipwfsf       flipperCtrl
-flipacq        flipperCtrl
-camacq         baslerCtrl
-camacq-sw      streamWriter
 fwpupil        filterWheelCtrl
 fwfpm          filterWheelCtrl
 fwlyot	       filterWheelCtrl
@@ -29,7 +20,6 @@ fwlowfs        filterWheelCtrl
 fwsci1         filterWheelCtrl
 fwsci2         filterWheelCtrl
 fwscind        hsfwCtrl
-fwtelsim       hsfwCtrl
 zaberLowLevel  zaberLowLevel
 stagelowfs     zaberCtrl
 stagesci1      zaberCtrl
@@ -50,10 +40,12 @@ xt1121_1       xt1121Ctrl
 xt1121_2       xt1121Ctrl
 dcdu0          xt1121DCDU
 dcdu1          xt1121DCDU
-usbdu0         acronameUsbHub
+#usbdu0         acronameUsbHub
 usbdu1         acronameUsbHub
-dmncpc         alpaoCtrl
+dmncpc         bmcCtrl
+rhncpc         rhusbMon
 ncpcModes      dmMode
+lowfsModes     dmMode
 mzmqServerICC  mzmqServer
 mzmqServerICC_calib mzmqServer
 icc_aoc_indi   sshDigger
@@ -63,9 +55,30 @@ temprack       usbtempMon
 instCool       koolanceCtrl
 loloop         cacaoInterface
 logainctrl     userGainCtrl
-tcsi           tcsInterface
-camtip-char    imgChar
-camlowfs-char  imgChar
-camsci1-char   imgChar
-camsci2-char   imgChar
 camvisx        visxCtrl
+camngws         baslerCtrl
+coralign       coralign
+coralignControl    closedLoopIndi
+tweeteralign-camsci1-wfs dmPokeCenter
+tweeteralign-camsci1-ctrl closedLoopIndi 
+
+ncpcalign-lyot-camsci1-wfs dmPokeCenter
+ncpcalign-bump-camsci1-wfs dmPokeCenter
+ncpcalign-pupil-camsci1-wfs dmPokeCenter
+
+dmncpc-avg shmimIntegrator
+
+pyexample pythonIndiExample
+
+
+dm02disp-sw streamWriter
+dm02disp01-sw streamWriter
+dm02disp03-sw streamWriter
+dm02disp04-sw streamWriter
+dm02disp08-sw streamWriter
+dm02disp09-sw streamWriter
+
+
+camlowfs-fit psfFit
+
+dbIngestICC        dbIngest
