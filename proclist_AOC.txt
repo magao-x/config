@@ -23,7 +23,10 @@ mzmqClientAOC_RTCpsds mzmqClient
 mzmqServerAOC     mzmqServer
 # sysMonAOC         sysMonitor
 observers         observerCtrl
-purepyindi_example purepyindi_example
-maggieo_x           audibleAlerts 
 labrules           stateRuleEngine
-dbIngestAOC        dbIngest
+
+
+#python:
+py:purepyindi_example purepyindi_example
+py:maggieo_x           audibleAlerts
+py:dbIngestAOC        dbIngest
