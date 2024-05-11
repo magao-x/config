@@ -47,7 +47,8 @@ aol1_modevalPSDs modalPSDs
 aol1_modevalWFS_cbuff streamCircBuff
 #aol1_modevalDM_cbuff streamCircBuff
 
-hoPredCtrl hoPredCtrl
+#hoPredCtrl hijacks GPUs on startup
+#hoPredCtrl hoPredCtrl
 
 ttmperi    kcubeCtrl
 camtip     baslerCtrl
