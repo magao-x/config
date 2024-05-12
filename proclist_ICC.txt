@@ -59,12 +59,10 @@ camvisx        visxCtrl
 camngws         baslerCtrl
 coralign       coralign
 coralignControl    closedLoopIndi
-tweeteralign-camsci1-wfs dmPokeCenter
-tweeteralign-camsci1-ctrl closedLoopIndi 
 
-ncpcalign-lyot-camsci1-wfs dmPokeCenter
-ncpcalign-bump-camsci1-wfs dmPokeCenter
-ncpcalign-pupil-camsci1-wfs dmPokeCenter
+ncpcAlign-lyot-wfs dmPokeCenter
+ncpcAlign-bump-wfs dmPokeCenter
+ncpcAlign-pupil-wfs dmPokeCenter
 
 dmncpc-avg shmimIntegrator
 
