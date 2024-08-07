@@ -22,7 +22,7 @@ mzmqClientAOC_RTCcamwfs mzmqClient
 mzmqClientAOC_RTCpsds mzmqClient
 mzmqClientAOC_RTC_calib mzmqClient
 mzmqServerAOC     mzmqServer
-# sysMonAOC         sysMonitor
+sysMonAOC         sysMonitor
 observers         observerCtrl
 purepyindi_example purepyindi_example
 maggieo_x           audibleAlerts 
