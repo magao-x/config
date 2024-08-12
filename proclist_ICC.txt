@@ -13,6 +13,7 @@ camlowfs       pvcamCtrl
 camlowfs-dark  shmimIntegrator
 camlowfs-sw     streamWriter
 camlowfs-avg shmimIntegrator
+camllowfs      pvcamCtrl
 fwpupil        filterWheelCtrl
 fwfpm          filterWheelCtrl
 fwlyot	       filterWheelCtrl
