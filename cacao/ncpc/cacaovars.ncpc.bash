@@ -151,7 +151,7 @@ export CACAO_FPSPROC_MVMGPU_CMODEVAL2DM="ON"
 
 
 # Zero Point Offset from DM to WFS
-#export CACAO_FPSPROC_MVMGPU_ZPO="ON"
+export CACAO_FPSPROC_MVMGPU_ZPO="ON"
 
 # Modal control statistics
 #export CACAO_FPSPROC_MODALCTRL_STATS="ON"
