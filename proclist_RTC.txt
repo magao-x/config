@@ -71,3 +71,6 @@ dm01disp-sw streamWriter
 dm01disp03-sw streamWriter
 
 dbIngestRTC        dbIngest
+
+#temp until cables move:
+stagellowfs zaberCtrl
