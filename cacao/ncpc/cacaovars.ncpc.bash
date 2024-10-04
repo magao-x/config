@@ -39,8 +39,8 @@ export CACAO_LOOPRUNDIR="${CACAO_LOOPNAME}-rundir"
 export CACAO_LOOPWORKDIR="${CACAO_LOOPNAME}-workdir"
 
 # input WFS stream
-export CACAO_WFSSTREAM="camlowfs"    # Hardware stream, connected to physical camera
-export CACAO_WFSSTREAMSIM="camlowfssim" # Simulation camera stream
+export CACAO_WFSSTREAM="camflowfs"    # Hardware stream, connected to physical camera
+export CACAO_WFSSTREAMSIM="camflowfssim" # Simulation camera stream
 
 # Specify that WFS stream is not raw image, but processed WFS signal
 # If set to ON, this turns off intensity scaling

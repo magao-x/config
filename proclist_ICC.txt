@@ -9,11 +9,21 @@ camsci2        picamCtrl
 camsci2-dark   shmimIntegrator
 camsci2-sw      streamWriter
 camsci2-avg    shmimIntegrator
-camlowfs       pvcamCtrl
-camlowfs-dark  shmimIntegrator
-camlowfs-sw     streamWriter
-camlowfs-avg shmimIntegrator
+
+##### camflowfs
+camflowfs       pvcamCtrl
+camflowfs-dark  shmimIntegrator
+camflowfs-sw     streamWriter
+camflowfs-avg  shmimIntegrator
+camflowfs-fit   psfFit
+
+##### camllowfs
 camllowfs      pvcamCtrl
+camllowfs-dark  shmimIntegrator
+camllowfs-sw     streamWriter
+camllowfs-avg  shmimIntegrator
+camllowfs-fit   psfFit
+
 fwpupil        filterWheelCtrl
 fwfpm          filterWheelCtrl
 fwlyot	       filterWheelCtrl
@@ -77,7 +87,5 @@ dm02disp04-sw streamWriter
 dm02disp08-sw streamWriter
 dm02disp09-sw streamWriter
 
-
-camlowfs-fit psfFit
 
 dbIngestICC        dbIngest
