@@ -64,6 +64,7 @@ icc_rtc_indi   sshDigger
 sysMonICC      sysMonitor
 temprack       usbtempMon
 instCool       koolanceCtrl
+labCool        koolanceCtrl
 loloop         cacaoInterface
 logainctrl     userGainCtrl
 camvisx        visxCtrl
