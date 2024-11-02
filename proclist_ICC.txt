@@ -32,7 +32,7 @@ fwsci1         filterWheelCtrl
 fwsci2         filterWheelCtrl
 fwscind        hsfwCtrl
 zaberLowLevel  zaberLowLevel
-stagelowfs     zaberCtrl
+stageflowfs     zaberCtrl
 stagesci1      zaberCtrl
 stagesci2      zaberCtrl
 stagescibs     zaberCtrl
