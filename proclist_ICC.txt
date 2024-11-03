@@ -16,6 +16,7 @@ camflowfs-dark  shmimIntegrator
 camflowfs-sw     streamWriter
 camflowfs-avg  shmimIntegrator
 camflowfs-fit   psfFit
+camflowfs-avg-fit psfFit
 
 ##### camllowfs
 camllowfs      pvcamCtrl
@@ -23,6 +24,7 @@ camllowfs-dark  shmimIntegrator
 camllowfs-sw     streamWriter
 camllowfs-avg  shmimIntegrator
 camllowfs-fit   psfFit
+camllowfs-avg-fit psfFit
 
 fwpupil        filterWheelCtrl
 fwfpm          filterWheelCtrl
@@ -75,6 +77,7 @@ coralignControl    closedLoopIndi
 ncpcAlign-lyot-wfs dmPokeCenter
 ncpcAlign-bump-wfs dmPokeCenter
 ncpcAlign-pupil-wfs dmPokeCenter
+ncpcAlign-pupil-ctrl closedLoopIndi
 
 dmncpc-avg shmimIntegrator
 
