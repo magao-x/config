@@ -58,6 +58,7 @@ camacq     baslerCtrl
 camacq-dark shmimIntegrator
 camacq-avg shmimIntegrator
 camacq-sw  streamWriter
+camacq-acq  psfAcq
 flipacq    flipperCtrl
 flipwfsf   flipperCtrl
 fliptip    flipperCtrl
