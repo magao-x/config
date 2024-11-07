@@ -51,8 +51,12 @@ twAlign-camwfs-ctrl closedLoopIndi
 
 ttmperi    kcubeCtrl
 camtip     baslerCtrl
+camtip-dark shmimIntegrator
+camtip-avg shmimIntegrator
 camtip-sw  streamWriter
 camacq     baslerCtrl
+camacq-dark shmimIntegrator
+camacq-avg shmimIntegrator
 camacq-sw  streamWriter
 flipacq    flipperCtrl
 flipwfsf   flipperCtrl
