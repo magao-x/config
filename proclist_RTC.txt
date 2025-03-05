@@ -65,6 +65,8 @@ fliptip    flipperCtrl
 fwtelsim   hsfwCtrl
 usbdu0     acronameUsbHub
 
+aol1_modevalWFS-sw streamWriter
+
 dm00disp-sw streamWriter
 dm00disp01-sw streamWriter
 dm00disp03-sw streamWriter
