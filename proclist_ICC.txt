@@ -79,7 +79,7 @@ aol2_modevalPSDs modalPSDs
 aol2_modevalWFS_cbuff streamCircBuff
 aol2_modevalWFS-sw streamWriter
 
-logopt psdGainOpt
+logopt modalGainOpt
 
 ncpcAlign-lyot-wfs dmPokeCenter
 ncpcAlign-bump-wfs dmPokeCenter

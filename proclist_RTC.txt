@@ -3,7 +3,7 @@
 isRTC          xindiserver
 holoop         cacaoInterface
 hogainctrl     userGainCtrl
-hogopt         psdGainOpt
+hogopt         modalGainOpt
 wloop          cacaoInterface
 wgainctrl      userGainCtrl
 camwfs         ocam2KCtrl
