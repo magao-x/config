@@ -4,6 +4,7 @@ isRTC          xindiserver
 holoop         cacaoInterface
 hogainctrl     userGainCtrl
 hogopt         modalGainOpt
+hofilt         modalFilter
 wloop          cacaoInterface
 wgainctrl      userGainCtrl
 camwfs         ocam2KCtrl
@@ -22,6 +23,7 @@ dmtweeter      bmcCtrl
 dmtweeter-avg  shmimIntegrator
 rhtweeter      rhusbMon
 tweeterSpeck   dmSpeckle
+tweeterMod     dmSpeckle
 tweeterModes   dmMode
 dmwoofer       alpaoCtrl
 dmwoofer-avg   shmimIntegrator
@@ -65,6 +67,8 @@ flipwfsf   flipperCtrl
 fliptip    flipperCtrl
 fwtelsim   hsfwCtrl
 usbdu0     acronameUsbHub
+
+strehl     strehlEstimator
 
 aol1_modevalWFS-sw streamWriter
 
