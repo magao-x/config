@@ -32,19 +32,16 @@ t2wOffloader   t2wOffloader
 w2tcsOffloader w2tcsOffloader
 mzmqServerRTC  mzmqServer
 mzmqServerRTCcamwfs mzmqServer
-mzmqServerRTCpsds mzmqServer
 mzmqServerRTC_calib mzmqServer
 rtc_icc_indi   sshDigger
 rtc_aoc_indi   sshDigger
 rtc_icc_istcsi sshDigger
 ttmpupil       pi335Ctrl
 sysMonRTC      sysMonitor
-#turbsim       acesxeCtrl
 stageff  zaberCtrl
 zaberLLRTC    zaberLowLevel
-aol1_modevalPSDs modalPSDs
+hopsds modalPSDs
 aol1_modevalWFS_cbuff streamCircBuff
-#aol1_modevalDM_cbuff streamCircBuff
 
 twAlign-camwfs-wfs dmPokeXCorr
 twAlign-camwfs-ctrl closedLoopIndi
