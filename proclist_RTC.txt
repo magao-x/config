@@ -76,9 +76,10 @@ dm01disp-sw streamWriter
 dm01disp02-sw streamWriter
 dm01disp03-sw streamWriter
 
-accel000-cbuff streamCircBuff
-accel000-psds  modalPSDs
-accel000-sw streamWriter
+rtc_acc000_indi sshDigger 
+acc000-cbuff streamCircBuff
+acc000-psds  modalPSDs
+acc000-sw streamWriter
 
 dbIngestRTC        dbIngest
 
