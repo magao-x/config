@@ -14,11 +14,11 @@ aoc_icc_notebook      sshDigger
 aoc_rtc_notebook      sshDigger
 aoc_icc_milkzmq   sshDigger
 aoc_rtc_milkzmq   sshDigger
-aoc_icc_istcsi    sshDigger
+aoc_acc000_indi sshDigger
+
 mzmqClientAOC_ICC mzmqClient
 mzmqClientAOC_RTC mzmqClient
 mzmqClientAOC_RTCcamwfs mzmqClient
-mzmqClientAOC_RTCpsds mzmqClient
 mzmqClientAOC_RTC_calib mzmqClient
 mzmqServerAOC     mzmqServer
 sysMonAOC         sysMonitor

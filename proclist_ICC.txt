@@ -100,3 +100,7 @@ dm02disp09-sw streamWriter
 
 stagellowfs        zaberCtrl
 dbIngestICC        dbIngest
+
+
+lowfs-refsub-avg shmimIntegrator
+
