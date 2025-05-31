@@ -1,0 +1,102 @@
+[source]
+device = "pdu0"
+conditions = [
+    {id = "pdu0.source.state", value = "On"}
+]
+[tcsi]
+conditions = [
+    {id = "tcsi.teldata.dome_stat", value = 1}
+]
+[fwtelsim]
+in = ["source"]
+[stagepickoff]
+in = ["tcsi", "fwtelsim"]
+
+[stagek]
+in = ["stagepickoff"]
+
+[ttmpupil]
+in = ["stagek"]
+[flipacq]
+in = ["ttmpupil"]
+[camacq]
+in = ["flipacq"]
+[dmwoofer]
+in = ["ttmpupil"]
+[dmtweeter]
+in = ["dmwoofer"]
+[stageadc1]
+in = ["dmwoofer"]
+[stageadc2]
+in = ["stageadc1"]
+
+[stagebs]
+in = ["stageadc2"]
+
+# wavefront sensing arm
+[modttm]
+in = ["stagebs"]
+[flipwfsf]
+in = ["modttm"]
+[fliptip]
+in = ["modttm"]
+[camtip]
+in = ["fliptip"]
+[stagecamlensx]
+in = ["modttm"]
+[stagecamlensy]
+in = ["modttm"]
+
+[camwfs]
+in = ["stagecamlensx", "stagecamlensy"]
+conditions = [
+    {id = 'camwfs.shutter.toggle', value = 'Off'}
+]
+
+# science arm
+[dmncpc]
+in = ["stagebs"]
+[fwpupil]
+in = ["dmncpc"]
+[stagepiaa1]
+in = ["fwpupil"]
+[fwfpm]
+in = ["stagepiaa1"]
+
+# low order wavefront sensing
+[stagelosel]
+in = ["fwfpm"]
+[fwlowfs]
+in = ["stagelosel"]
+[stagelowfs]
+[camlowfs]
+in = ["fwlowfs", "stagelowfs"]
+
+[fwlyot]
+in = ["fwfpm"]
+[stagepiaa2]
+in=["fwlyot"]
+[fold]
+in= [ "stagepiaa2" ]
+[fwscind]
+in=["fold"]
+[stagescibs]
+in = ["fwscind"]
+
+#science cams
+[fwsci1]
+in = ["stagescibs"]
+[shsci1]
+in=["fwsci1"]
+[stagesci1]
+[camsci1]
+in = ["stagesci1", "shsci1"]
+[fwsci2]
+in = ["stagescibs"]
+[shsci2]
+in=["fwsci2"]
+[stagesci2]
+[camsci2]
+in = ["stagesci2", "shsci2"]
+
+
