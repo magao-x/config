@@ -27,3 +27,5 @@ purepyindi_example purepyindi_example
 maggieo_x           audibleAlerts 
 labrules           stateRuleEngine
 dbIngestAOC        dbIngest
+
+instgraph       xInstGraph
