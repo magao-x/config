@@ -21,6 +21,7 @@ fxngenmodwfs   siglentSDG
 modwfs         ttmModulator
 dmtweeter      bmcCtrl
 dmtweeter-avg  shmimIntegrator
+#dmtweeter-recon dmRecon
 rhtweeter      rhusbMon
 tweeterSpeck   dmSpeckle
 tweeterMod     dmSpeckle
