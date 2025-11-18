@@ -21,9 +21,12 @@ mzmqClientAOC_RTC mzmqClient
 mzmqClientAOC_RTCcamwfs mzmqClient
 mzmqClientAOC_RTC_calib mzmqClient
 mzmqServerAOC     mzmqServer
+mzmqServerAOCcamwfs mzmqServer
 sysMonAOC         sysMonitor
 observers         observerCtrl
 purepyindi_example purepyindi_example
 maggieo_x           audibleAlerts 
 labrules           stateRuleEngine
 dbIngestAOC        dbIngest
+
+instgraph       xInstGraph

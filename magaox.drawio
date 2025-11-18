@@ -125,7 +125,7 @@
                     <mxCell id="state:stagek" value="state" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=19;" parent="node:stagek" vertex="1">
                         <mxGeometry y="70" width="180" height="30" as="geometry"/>
                     </mxCell>
-                    <mxCell id="fsmsate:stagek" value="fsmstate" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=19;fontColor=#3399FF;" parent="node:stagek" vertex="1">
+                    <mxCell id="fsmstate:stagek" value="fsmstate" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=19;fontColor=#3399FF;" parent="node:stagek" vertex="1">
                         <mxGeometry y="25" width="180" height="30" as="geometry"/>
                     </mxCell>
 
@@ -169,8 +169,11 @@
                     <mxCell id="link:flipacq:in2out" value="" style="endArrow=classic;html=1;dashed=1;strokeColor=#00FF00;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="node:flipacq" source="input:flipacq:in" target="output:flipacq:out" edge="1">
                         <mxGeometry width="50" height="50" relative="1" as="geometry"/>
                     </mxCell>
+                    <mxCell id="link:flipacq:in2in" value="" style="endArrow=classic;html=1;dashed=1;strokeColor=#00FF00;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="node:flipacq" source="input:flipacq:in" target="output:flipacq:in" edge="1">
+                        <mxGeometry width="50" height="50" relative="1" as="geometry"/>
+                    </mxCell>
                     <mxCell id="output:flipacq:in" value="in" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#FF0000;" parent="node:flipacq" vertex="1">
-                        <mxGeometry y="55" width="32" height="16" as="geometry"/>
+                        <mxGeometry x="74" y="0" width="32" height="16" as="geometry"/>
                     </mxCell>
                     <mxCell id="state:flipacq" value="state" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=19;" parent="node:flipacq" vertex="1">
                         <mxGeometry y="70" width="180" height="30" as="geometry"/>
@@ -183,13 +186,13 @@
                     </mxCell>
 
                 <mxCell id="node:camacq" value="" style="group" parent="1" connectable="0" vertex="1">
-                    <mxGeometry x="100" y="50" width="180" height="100" as="geometry"/>
+                    <mxGeometry x="330" y="50" width="180" height="100" as="geometry"/>
                 </mxCell>
                     <mxCell id="frame:camacq" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=18;" parent="node:camacq" vertex="1">
                         <mxGeometry width="180" height="100" as="geometry"/>
                     </mxCell>
                     <mxCell id="input:camacq:in" value="in" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#FF0000;" parent="node:camacq" vertex="1">
-                        <mxGeometry x="148" y="55" width="32" height="16" as="geometry"/>
+                        <mxGeometry x="74" y="84" width="32" height="16" as="geometry"/>
                     </mxCell>
                     <mxCell id="state:camacq" value="state" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=19;" parent="node:camacq" vertex="1">
                         <mxGeometry y="70" width="180" height="30" as="geometry"/>
@@ -449,6 +452,13 @@
                     <mxCell id="link:fliptip:in2out" value="" style="endArrow=classic;html=1;dashed=1;strokeColor=#00FF00;exitX=0.5;exitY=1.0;exitDx=0;exitDy=0;entryX=0.5;entryY=0.0;entryDx=0;entryDy=0;" edge="1" parent="node:fliptip" source="input:fliptip:in" target="output:fliptip:out">
                         <mxGeometry width="50" height="50" relative="1" as="geometry"/>
                     </mxCell>
+                    <mxCell id="output:fliptip:in" value="in" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#FF0000;" vertex="1" parent="node:fliptip">
+                        <mxGeometry x="148" y="42" width="32" height="16" as="geometry"/>
+                    </mxCell>
+                    <mxCell id="link:fliptip:in2in" value="" style="endArrow=classic;html=1;dashed=1;strokeColor=#00FF00;exitX=0.5;exitY=1.0;exitDx=0;exitDy=0;entryX=0.5;entryY=0.0;entryDx=0;entryDy=0;" edge="1" parent="node:fliptip" source="input:fliptip:in" target="output:fliptip:in">
+                        <mxGeometry width="50" height="50" relative="1" as="geometry"/>
+                    </mxCell>
+
                     <mxCell id="state:fliptip" value="state" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=19;" vertex="1" parent="node:fliptip">
                         <mxGeometry y="70" width="180" height="30" as="geometry"/>
                     </mxCell>
@@ -550,6 +560,25 @@
                         <mxGeometry width="180" height="30" as="geometry"/>
                     </mxCell>
                     <mxCell id="fsmstate:camwfs" value="fsmstate" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=19;fontColor=#3399FF;" vertex="1" parent="node:camwfs">
+                        <mxGeometry y="25" width="180" height="30" as="geometry"/>
+                    </mxCell>
+
+                <mxCell id="node:camtip" value="" style="group" connectable="0" vertex="1" parent="1">
+                    <mxGeometry x="1940" y="650" width="180" height="100" as="geometry"/>
+                </mxCell>
+                    <mxCell id="frame:camtip" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=18;" vertex="1" parent="node:camtip">
+                        <mxGeometry width="180" height="100" as="geometry"/>
+                    </mxCell>
+                    <mxCell id="input:camtip:in" value="in" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#FF0000;" vertex="1" parent="node:camtip">
+                        <mxGeometry x="0" y="42" width="32" height="16" as="geometry"/>
+                    </mxCell>
+                    <mxCell id="state:camtip" value="state" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=19;" vertex="1" parent="node:camtip">
+                        <mxGeometry y="70" width="180" height="30" as="geometry"/>
+                    </mxCell>
+                    <mxCell id="title:camtip" value="camtip" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=19;" vertex="1" parent="node:camtip">
+                        <mxGeometry width="180" height="30" as="geometry"/>
+                    </mxCell>
+                    <mxCell id="fsmstate:camtip" value="fsmstate" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=19;fontColor=#3399FF;" vertex="1" parent="node:camtip">
                         <mxGeometry y="25" width="180" height="30" as="geometry"/>
                     </mxCell>
 
@@ -930,6 +959,279 @@
                         <mxGeometry y="25" width="180" height="30" as="geometry"/>
                     </mxCell>
 
+                <!-- focal planes -->
+
+                <mxCell id="node:stagefold" value="" style="group" parent="1" connectable="0" vertex="1">
+                    <mxGeometry x="100" y="1100" width="180" height="100" as="geometry"/>
+                </mxCell>
+                    <mxCell id="frame:stagefold" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=18;" parent="node:stagefold" vertex="1">
+                        <mxGeometry width="180" height="100" as="geometry"/>
+                    </mxCell>
+                    <mxCell id="input:stagefold:in" value="in" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#FF0000;" parent="node:stagefold" vertex="1">
+                        <mxGeometry x="74" y="0" width="32" height="16" as="geometry"/>
+                    </mxCell>
+                    <mxCell id="output:stagefold:in" value="in" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#FF0000;" parent="node:stagefold" vertex="1">
+                        <mxGeometry x="148" y="42" width="32" height="16" as="geometry"/>
+                    </mxCell>
+                    <mxCell id="output:stagefold:out" value="out" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#FF0000;" parent="node:stagefold" vertex="1">
+                        <mxGeometry x="74" y="84" width="32" height="16" as="geometry"/>
+                    </mxCell>
+                    <mxCell id="state:stagefold" value="state" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=19;" parent="node:stagefold" vertex="1">
+                        <mxGeometry y="70" width="180" height="30" as="geometry"/>
+                    </mxCell>
+                    <mxCell id="title:stagefold" value="stagefold" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=19;" parent="node:stagefold" vertex="1">
+                        <mxGeometry width="180" height="30" as="geometry"/>
+                    </mxCell>
+                    <mxCell id="fsmstate:stagefold" value="fsmstate" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=19;fontColor=#3399FF;" parent="node:stagefold" vertex="1">
+                        <mxGeometry y="25" width="180" height="30" as="geometry"/>
+                    </mxCell>
+
+                <mxCell id="node:fwscind" value="" style="group" parent="1" connectable="0" vertex="1">
+                    <mxGeometry x="330" y="1100" width="180" height="100" as="geometry"/>
+                </mxCell>
+                    <mxCell id="frame:fwscind" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=18;" parent="node:fwscind" vertex="1">
+                        <mxGeometry width="180" height="100" as="geometry"/>
+                    </mxCell>
+                    <mxCell id="input:fwscind:in" value="in" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#FF0000;" parent="node:fwscind" vertex="1">
+                        <mxGeometry x="0" y="42" width="32" height="16" as="geometry"/>
+                    </mxCell>
+                    <mxCell id="output:fwscind:out" value="out" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#FF0000;" parent="node:fwscind" vertex="1">
+                        <mxGeometry x="148" y="42" width="32" height="16" as="geometry"/>
+                    </mxCell>
+                    <mxCell id="link:fwscind:in2out" value="" style="endArrow=classic;html=1;dashed=1;strokeColor=#00FF00;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="node:fwscind" source="input:fwscind:in" target="output:fwscind:out" edge="1">
+                        <mxGeometry width="50" height="50" relative="1" as="geometry"/>
+                    </mxCell>
+                    <mxCell id="state:fwscind" value="state" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=19;" parent="node:fwscind" vertex="1">
+                        <mxGeometry y="70" width="180" height="30" as="geometry"/>
+                    </mxCell>
+                    <mxCell id="title:fwscind" value="fwscind" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=19;" parent="node:fwscind" vertex="1">
+                        <mxGeometry width="180" height="30" as="geometry"/>
+                    </mxCell>
+                    <mxCell id="fsmstate:fwscind" value="fsmstate" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=19;fontColor=#3399FF;" parent="node:fwscind" vertex="1">
+                        <mxGeometry y="25" width="180" height="30" as="geometry"/>
+                    </mxCell>
+
+                <mxCell id="node:stagescibs" value="" style="group" parent="1" connectable="0" vertex="1">
+                    <mxGeometry x="560" y="1100" width="180" height="100" as="geometry"/>
+                </mxCell>
+                    <mxCell id="frame:stagescibs" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=18;" parent="node:stagescibs" vertex="1">
+                        <mxGeometry width="180" height="100" as="geometry"/>
+                    </mxCell>
+                    <mxCell id="input:stagescibs:in" value="in" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#FF0000;" parent="node:stagescibs" vertex="1">
+                        <mxGeometry x="0" y="42" width="32" height="16" as="geometry"/>
+                    </mxCell>
+                    <mxCell id="output:stagescibs:out" value="out" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#FF0000;" parent="node:stagescibs" vertex="1">
+                        <mxGeometry x="148" y="42" width="32" height="16" as="geometry"/>
+                    </mxCell>
+                    <mxCell id="link:stagescibs:in2out" value="" style="endArrow=classic;html=1;dashed=1;strokeColor=#00FF00;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="node:stagescibs" source="input:stagescibs:in" target="output:stagescibs:out" edge="1">
+                        <mxGeometry width="50" height="50" relative="1" as="geometry"/>
+                    </mxCell>
+                    <mxCell id="output:stagescibs:in" value="in" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#FF0000;" parent="node:stagescibs" vertex="1">
+                        <mxGeometry x="74" y="84" width="32" height="16" as="geometry"/>
+                    </mxCell>
+                    <mxCell id="state:stagescibs" value="state" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=19;" parent="node:stagescibs" vertex="1">
+                        <mxGeometry y="70" width="180" height="30" as="geometry"/>
+                    </mxCell>
+                    <mxCell id="title:stagescibs" value="stagescibs" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=19;" parent="node:stagescibs" vertex="1">
+                        <mxGeometry width="180" height="30" as="geometry"/>
+                    </mxCell>
+                    <mxCell id="fsmstate:stagescibs" value="fsmstate" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=19;fontColor=#3399FF;" parent="node:stagescibs" vertex="1">
+                        <mxGeometry y="25" width="180" height="30" as="geometry"/>
+                    </mxCell>
+
+                <mxCell id="node:fwsci1" value="" style="group" parent="1" connectable="0" vertex="1">
+                    <mxGeometry x="790" y="1100" width="180" height="100" as="geometry"/>
+                </mxCell>
+                    <mxCell id="frame:fwsci1" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=18;" parent="node:fwsci1" vertex="1">
+                        <mxGeometry width="180" height="100" as="geometry"/>
+                    </mxCell>
+                    <mxCell id="input:fwsci1:in" value="in" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#FF0000;" parent="node:fwsci1" vertex="1">
+                        <mxGeometry x="0" y="42" width="32" height="16" as="geometry"/>
+                    </mxCell>
+                    <mxCell id="output:fwsci1:out" value="out" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#FF0000;" parent="node:fwsci1" vertex="1">
+                        <mxGeometry x="148" y="42" width="32" height="16" as="geometry"/>
+                    </mxCell>
+                    <mxCell id="link:fwsci1:in2out" value="" style="endArrow=classic;html=1;dashed=1;strokeColor=#00FF00;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="node:fwsci1" source="input:fwsci1:in" target="output:fwsci1:out" edge="1">
+                        <mxGeometry width="50" height="50" relative="1" as="geometry"/>
+                    </mxCell>
+                    <mxCell id="state:fwsci1" value="state" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=19;" parent="node:fwsci1" vertex="1">
+                        <mxGeometry y="70" width="180" height="30" as="geometry"/>
+                    </mxCell>
+                    <mxCell id="title:fwsci1" value="fwsci1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=19;" parent="node:fwsci1" vertex="1">
+                        <mxGeometry width="180" height="30" as="geometry"/>
+                    </mxCell>
+                    <mxCell id="fsmstate:fwsci1" value="fsmstate" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=19;fontColor=#3399FF;" parent="node:fwsci1" vertex="1">
+                        <mxGeometry y="25" width="180" height="30" as="geometry"/>
+                    </mxCell>
+
+                <mxCell id="node:shsci1" value="" style="group" parent="1" connectable="0" vertex="1">
+                    <mxGeometry x="1020" y="1100" width="180" height="100" as="geometry"/>
+                </mxCell>
+                    <mxCell id="frame:shsci1" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=18;" parent="node:shsci1" vertex="1">
+                        <mxGeometry width="180" height="100" as="geometry"/>
+                    </mxCell>
+                    <mxCell id="input:shsci1:in" value="in" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#FF0000;" parent="node:shsci1" vertex="1">
+                        <mxGeometry y="42" width="32" height="16" as="geometry"/>
+                    </mxCell>
+                    <mxCell id="output:shsci1:out" value="out" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#FF0000;" parent="node:shsci1" vertex="1">
+                        <mxGeometry x="148" y="42" width="32" height="16" as="geometry"/>
+                    </mxCell>
+                    <mxCell id="link:shsci1:in2out" value="" style="endArrow=classic;html=1;dashed=1;strokeColor=#00FF00;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="node:shsci1" source="input:shsci1:in" target="output:shsci1:out" edge="1">
+                        <mxGeometry width="50" height="50" relative="1" as="geometry"/>
+                    </mxCell>
+                    <mxCell id="state:shsci1" value="state" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=19;" parent="node:shsci1" vertex="1">
+                        <mxGeometry y="70" width="180" height="30" as="geometry"/>
+                    </mxCell>
+                    <mxCell id="title:shsci1" value="shsci1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=19;" parent="node:shsci1" vertex="1">
+                        <mxGeometry width="180" height="30" as="geometry"/>
+                    </mxCell>
+                    <mxCell id="fsmstate:shsci1" value="fsmstate" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=19;fontColor=#3399FF;" parent="node:shsci1" vertex="1">
+                        <mxGeometry y="25" width="180" height="30" as="geometry"/>
+                    </mxCell>
+
+                <mxCell id="node:camsci1" value="" style="group" parent="1" connectable="0" vertex="1">
+                    <mxGeometry x="1250" y="1100" width="180" height="100" as="geometry"/>
+                </mxCell>
+                    <mxCell id="frame:camsci1" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=18;" parent="node:camsci1" vertex="1">
+                        <mxGeometry width="180" height="100" as="geometry"/>
+                    </mxCell>
+                    <mxCell id="input:camsci1:in" value="in" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#FF0000;" parent="node:camsci1" vertex="1">
+                        <mxGeometry y="42" width="32" height="16" as="geometry"/>
+                    </mxCell>
+                    <mxCell id="state:camsci1" value="state" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=19;" parent="node:camsci1" vertex="1">
+                        <mxGeometry y="70" width="180" height="30" as="geometry"/>
+                    </mxCell>
+                    <mxCell id="title:camsci1" value="camsci1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=19;" parent="node:camsci1" vertex="1">
+                        <mxGeometry width="180" height="30" as="geometry"/>
+                    </mxCell>
+                    <mxCell id="fsmstate:camsci1" value="fsmstate" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=19;fontColor=#3399FF;" parent="node:camsci1" vertex="1">
+                        <mxGeometry y="25" width="180" height="30" as="geometry"/>
+                    </mxCell>
+
+                <mxCell id="node:stagesci1" value="" style="group" parent="1" connectable="0" vertex="1">
+                    <mxGeometry x="1430" y="1100" width="180" height="100" as="geometry"/>
+                </mxCell>
+                    <mxCell id="frame:stagesci1" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=18;" parent="node:stagesci1" vertex="1">
+                        <mxGeometry width="180" height="100" as="geometry"/>
+                    </mxCell>
+                    <!--
+                    <mxCell id="input:stagesci1:in" value="in" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#FF0000;" parent="node:stagesci1" vertex="1">
+                        <mxGeometry y="55" width="32" height="16" as="geometry"/>
+                    </mxCell>
+                    <mxCell id="output:stagesci1:out" value="out" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#FF0000;" parent="node:stagesci1" vertex="1">
+                        <mxGeometry x="148" y="55" width="32" height="16" as="geometry"/>
+                    </mxCell>
+                    <mxCell id="link:stagesci1:in2out" value="" style="endArrow=classic;html=1;dashed=1;strokeColor=#00FF00;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="node:stagesci1" source="input:stagesci1:in" target="output:stagesci1:out" edge="1">
+                        <mxGeometry width="50" height="50" relative="1" as="geometry"/>
+                    </mxCell>
+                    -->
+                    <mxCell id="state:stagesci1" value="state" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=19;" parent="node:stagesci1" vertex="1">
+                        <mxGeometry y="70" width="180" height="30" as="geometry"/>
+                    </mxCell>
+                    <mxCell id="title:stagesci1" value="stagesci1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=19;" parent="node:stagesci1" vertex="1">
+                        <mxGeometry width="180" height="30" as="geometry"/>
+                    </mxCell>
+                    <mxCell id="fsmstate:stagesci1" value="fsmstate" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=19;fontColor=#3399FF;" parent="node:stagesci1" vertex="1">
+                        <mxGeometry y="25" width="180" height="30" as="geometry"/>
+                    </mxCell>
+
+
+
+                <mxCell id="node:fwsci2" value="" style="group" parent="1" connectable="0" vertex="1">
+                    <mxGeometry x="790" y="1250" width="180" height="100" as="geometry"/>
+                </mxCell>
+                    <mxCell id="frame:fwsci2" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=18;" parent="node:fwsci2" vertex="1">
+                        <mxGeometry width="180" height="100" as="geometry"/>
+                    </mxCell>
+                    <mxCell id="input:fwsci2:in" value="in" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#FF0000;" parent="node:fwsci2" vertex="1">
+                        <mxGeometry x="0" y="42" width="32" height="16" as="geometry"/>
+                    </mxCell>
+                    <mxCell id="output:fwsci2:out" value="out" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#FF0000;" parent="node:fwsci2" vertex="1">
+                        <mxGeometry x="148" y="42" width="32" height="16" as="geometry"/>
+                    </mxCell>
+                    <mxCell id="link:fwsci2:in2out" value="" style="endArrow=classic;html=1;dashed=1;strokeColor=#00FF00;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="node:fwsci2" source="input:fwsci2:in" target="output:fwsci2:out" edge="1">
+                        <mxGeometry width="50" height="50" relative="1" as="geometry"/>
+                    </mxCell>
+                    <mxCell id="state:fwsci2" value="state" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=19;" parent="node:fwsci2" vertex="1">
+                        <mxGeometry y="70" width="180" height="30" as="geometry"/>
+                    </mxCell>
+                    <mxCell id="title:fwsci2" value="fwsci2" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=19;" parent="node:fwsci2" vertex="1">
+                        <mxGeometry width="180" height="30" as="geometry"/>
+                    </mxCell>
+                    <mxCell id="fsmstate:fwsci2" value="fsmstate" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=19;fontColor=#3399FF;" parent="node:fwsci2" vertex="1">
+                        <mxGeometry y="25" width="180" height="30" as="geometry"/>
+                    </mxCell>
+
+                <mxCell id="node:shsci2" value="" style="group" parent="1" connectable="0" vertex="1">
+                    <mxGeometry x="1020" y="1250" width="180" height="100" as="geometry"/>
+                </mxCell>
+                    <mxCell id="frame:shsci2" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=18;" parent="node:shsci2" vertex="1">
+                        <mxGeometry width="180" height="100" as="geometry"/>
+                    </mxCell>
+                    <mxCell id="input:shsci2:in" value="in" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#FF0000;" parent="node:shsci2" vertex="1">
+                        <mxGeometry y="42" width="32" height="16" as="geometry"/>
+                    </mxCell>
+                    <mxCell id="output:shsci2:out" value="out" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#FF0000;" parent="node:shsci2" vertex="1">
+                        <mxGeometry x="148" y="42" width="32" height="16" as="geometry"/>
+                    </mxCell>
+                    <mxCell id="link:shsci2:in2out" value="" style="endArrow=classic;html=1;dashed=1;strokeColor=#00FF00;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="node:shsci2" source="input:shsci2:in" target="output:shsci2:out" edge="1">
+                        <mxGeometry width="50" height="50" relative="1" as="geometry"/>
+                    </mxCell>
+                    <mxCell id="state:shsci2" value="state" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=19;" parent="node:shsci2" vertex="1">
+                        <mxGeometry y="70" width="180" height="30" as="geometry"/>
+                    </mxCell>
+                    <mxCell id="title:shsci2" value="shsci2" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=19;" parent="node:shsci2" vertex="1">
+                        <mxGeometry width="180" height="30" as="geometry"/>
+                    </mxCell>
+                    <mxCell id="fsmstate:shsci2" value="fsmstate" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=19;fontColor=#3399FF;" parent="node:shsci2" vertex="1">
+                        <mxGeometry y="25" width="180" height="30" as="geometry"/>
+                    </mxCell>
+
+                <mxCell id="node:camsci2" value="" style="group" parent="1" connectable="0" vertex="1">
+                    <mxGeometry x="1250" y="1250" width="180" height="100" as="geometry"/>
+                </mxCell>
+                    <mxCell id="frame:camsci2" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=18;" parent="node:camsci2" vertex="1">
+                        <mxGeometry width="180" height="100" as="geometry"/>
+                    </mxCell>
+                    <mxCell id="input:camsci2:in" value="in" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#FF0000;" parent="node:camsci2" vertex="1">
+                        <mxGeometry y="42" width="32" height="16" as="geometry"/>
+                    </mxCell>
+                    <mxCell id="state:camsci2" value="state" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=19;" parent="node:camsci2" vertex="1">
+                        <mxGeometry y="70" width="180" height="30" as="geometry"/>
+                    </mxCell>
+                    <mxCell id="title:camsci2" value="camsci2" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=19;" parent="node:camsci2" vertex="1">
+                        <mxGeometry width="180" height="30" as="geometry"/>
+                    </mxCell>
+                    <mxCell id="fsmstate:camsci2" value="fsmstate" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=19;fontColor=#3399FF;" parent="node:camsci2" vertex="1">
+                        <mxGeometry y="25" width="180" height="30" as="geometry"/>
+                    </mxCell>
+
+                <mxCell id="node:stagesci2" value="" style="group" parent="1" connectable="0" vertex="1">
+                    <mxGeometry x="1430" y="1250" width="180" height="100" as="geometry"/>
+                </mxCell>
+                    <mxCell id="frame:stagesci2" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=18;" parent="node:stagesci2" vertex="1">
+                        <mxGeometry width="180" height="100" as="geometry"/>
+                    </mxCell>
+                    <!--
+                    <mxCell id="input:stagesci2:in" value="in" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#FF0000;" parent="node:stagesci2" vertex="1">
+                        <mxGeometry y="55" width="32" height="16" as="geometry"/>
+                    </mxCell>
+                    <mxCell id="output:stagesci2:out" value="out" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#FF0000;" parent="node:stagesci2" vertex="1">
+                        <mxGeometry x="148" y="55" width="32" height="16" as="geometry"/>
+                    </mxCell>
+                    <mxCell id="link:stagesci2:in2out" value="" style="endArrow=classic;html=1;dashed=1;strokeColor=#00FF00;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="node:stagesci2" source="input:stagesci2:in" target="output:stagesci2:out" edge="1">
+                        <mxGeometry width="50" height="50" relative="1" as="geometry"/>
+                    </mxCell>
+                    -->
+                    <mxCell id="state:stagesci2" value="state" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=19;" parent="node:stagesci2" vertex="1">
+                        <mxGeometry y="70" width="180" height="30" as="geometry"/>
+                    </mxCell>
+                    <mxCell id="title:stagesci2" value="stagesci2" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=19;" parent="node:stagesci2" vertex="1">
+                        <mxGeometry width="180" height="30" as="geometry"/>
+                    </mxCell>
+                    <mxCell id="fsmstate:stagesci2" value="fsmstate" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=19;fontColor=#3399FF;" parent="node:stagesci2" vertex="1">
+                        <mxGeometry y="25" width="180" height="30" as="geometry"/>
+                    </mxCell>
 
                 <!-- beams -->
 
@@ -961,12 +1263,8 @@
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
 
-                <mxCell id="beam:flipacq2camacq" value="" style="endArrow=classic;html=1;strokeColor=#FF0000;strokeWidth=2;fontColor=#FF0000;fontSize=14;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="output:flipacq:in" target="input:camacq:in" edge="1">
+                <mxCell id="beam:flipacq2camacq" value="" style="endArrow=classic;html=1;strokeColor=#FF0000;strokeWidth=2;fontColor=#FF0000;fontSize=14;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0.0;exitDx=0;exitDy=0;" parent="1" source="output:flipacq:in" target="input:camacq:in" edge="1">
                     <mxGeometry relative="1" as="geometry">
-                        <Array as="points">
-                            <mxPoint x="315" y="263"/>
-                            <mxPoint x="315" y="112"/>
-                        </Array>
                     </mxGeometry>
                 </mxCell>
 
@@ -1031,6 +1329,10 @@
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
 
+                <mxCell id="beam:fliptip2camtip" value="" style="endArrow=classic;html=1;strokeColor=#FF0000;strokeWidth=2;fontColor=#FF0000;fontSize=14;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="output:fliptip:in" target="input:camtip:in">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+
                 <!-- Beams Coronagraph -->
                 <mxCell id="beam:stagebs2dmncpc" value="" style="endArrow=classic;html=1;strokeColor=#FF0000;strokeWidth=2;fontColor=#FF0000;fontSize=14;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1.0;exitDx=0;exitDy=0;" edge="1" parent="1" source="output:stagebs:sci" target="input:dmncpc:in">
                     <mxGeometry relative="1" as="geometry"/>
@@ -1091,6 +1393,47 @@
                 <mxCell id="beam:stagellowfs2camflowfs" value="" style="endArrow=classic;html=1;strokeColor=#FF0000;strokeWidth=2;fontColor=#FF0000;fontSize=14;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="output:stagellowfs:out" target="input:camllowfs:in">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
+
+                <mxCell id="beam:stageipiaa2stagefold" value="" style="endArrow=classic;html=1;strokeColor=#FF0000;strokeWidth=2;fontColor=#FF0000;fontSize=14;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="output:stageipiaa:out" target="input:stagefold:in">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+
+                <mxCell id="beam:stagefold2fwscind" value="" style="endArrow=classic;html=1;strokeColor=#FF0000;strokeWidth=2;fontColor=#FF0000;fontSize=14;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="output:stagefold:in" target="input:fwscind:in">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+
+                <mxCell id="beam:fwscind2stagescibs" value="" style="endArrow=classic;html=1;strokeColor=#FF0000;strokeWidth=2;fontColor=#FF0000;fontSize=14;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="output:fwscind:out" target="input:stagescibs:in">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+
+                <mxCell id="beam:stagescibs2fwsci1" value="" style="endArrow=classic;html=1;strokeColor=#FF0000;strokeWidth=2;fontColor=#FF0000;fontSize=14;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="output:stagescibs:out" target="input:fwsci1:in">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+
+                <mxCell id="beam:stagescibs2fwsci2" value="" style="endArrow=classic;html=1;strokeColor=#FF0000;strokeWidth=2;fontColor=#FF0000;fontSize=14;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="output:stagescibs:in" target="input:fwsci2:in">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="650" y="1300"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+
+                <mxCell id="beam:fwsci12shsci1" value="" style="endArrow=classic;html=1;strokeColor=#FF0000;strokeWidth=2;fontColor=#FF0000;fontSize=14;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="output:fwsci1:out" target="input:shsci1:in">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+
+                <mxCell id="beam:shsci12camsci1" value="" style="endArrow=classic;html=1;strokeColor=#FF0000;strokeWidth=2;fontColor=#FF0000;fontSize=14;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="output:shsci1:out" target="input:camsci1:in">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+
+                <mxCell id="beam:fwsci22shsci2" value="" style="endArrow=classic;html=1;strokeColor=#FF0000;strokeWidth=2;fontColor=#FF0000;fontSize=14;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="output:fwsci2:out" target="input:shsci2:in">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+
+                <mxCell id="beam:shsci22camsci2" value="" style="endArrow=classic;html=1;strokeColor=#FF0000;strokeWidth=2;fontColor=#FF0000;fontSize=14;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="output:shsci2:out" target="input:camsci2:in">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+
 
             </root>
         </mxGraphModel>
