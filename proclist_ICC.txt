@@ -33,6 +33,8 @@ fwlowfs        filterWheelCtrl
 fwsci1         filterWheelCtrl
 fwsci2         filterWheelCtrl
 fwscind        hsfwCtrl
+
+#zaber stages
 zaberLowLevel  zaberLowLevel
 stageflowfs     zaberCtrl
 stagesci1      zaberCtrl
@@ -42,12 +44,19 @@ stagelosel     zaberCtrl
 stagebs        zaberCtrl
 stagepiaa      zaberCtrl
 stageipiaa     zaberCtrl
+
+#polarimeter
+zaberLLPol     zaberLowLevel
+stagepolrot    zaberCtrl
+
+#smc100 stages
 stagek         smc100ccCtrl
 stageadc1      smc100ccCtrl
 stageadc2      smc100ccCtrl
 stagepickoff   smc100ccCtrl
 stagecamlensx  smc100ccCtrl
 stagecamlensy  smc100ccCtrl
+
 picomotors     picoMotorCtrl
 xt1121_1       xt1121Ctrl
 xt1121_2       xt1121Ctrl
@@ -101,10 +110,11 @@ dm02disp09-sw streamWriter
 stagellowfs        zaberCtrl
 dbIngestICC        dbIngest
 
-
 lowfs-refsub-avg shmimIntegrator
 
 icc_acc001_indi sshDigger
 acc001-cbuff streamCircBuff
 acc001-psds  modalPSDs
 acc001-sw streamWriter
+
+fpmalign fpmCtrl
