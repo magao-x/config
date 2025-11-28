@@ -118,3 +118,4 @@ acc001-psds  modalPSDs
 acc001-sw streamWriter
 
 fpmalign fpmCtrl
+pupilCorAlign pupilCorAlign
