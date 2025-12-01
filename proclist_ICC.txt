@@ -44,6 +44,7 @@ stagelosel     zaberCtrl
 stagebs        zaberCtrl
 stagepiaa      zaberCtrl
 stageipiaa     zaberCtrl
+stagevp        zaberCtrl
 
 #polarimeter
 zaberLLPol     zaberLowLevel
@@ -107,7 +108,6 @@ dm02disp04-sw streamWriter
 dm02disp08-sw streamWriter
 dm02disp09-sw streamWriter
 
-stagellowfs        zaberCtrl
 dbIngestICC        dbIngest
 
 lowfs-refsub-avg shmimIntegrator
@@ -118,3 +118,4 @@ acc001-psds  modalPSDs
 acc001-sw streamWriter
 
 fpmalign fpmCtrl
+pupilCorAlign pupilCorAlign
