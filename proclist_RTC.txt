@@ -21,13 +21,14 @@ fxngenmodwfs   siglentSDG
 modwfs         ttmModulator
 dmtweeter      bmcCtrl
 dmtweeter-avg  shmimIntegrator
-#dmtweeter-recon dmRecon
+dmtweeter-recon dmRecon
 rhtweeter      rhusbMon
 tweeterSpeck   dmSpeckle
 tweeterMod     dmSpeckle
 tweeterModes   dmMode
 dmwoofer       alpaoCtrl
 dmwoofer-avg   shmimIntegrator
+dmwoofer-recon dmRecon
 wooferModes    dmMode
 t2wOffloader   t2wOffloader
 w2tcsOffloader w2tcsOffloader
