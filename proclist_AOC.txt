@@ -7,7 +7,6 @@ pdu2              trippLitePDU
 pdu3              trippLitePDU
 tcsi              tcsInterface
 adctrack          adcTracker
-hwpsequence       hwpSequencer
 hwptrack          hwpTracker
 ktrack            kTracker
 aoc_icc_indi      sshDigger

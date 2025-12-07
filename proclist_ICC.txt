@@ -119,3 +119,5 @@ acc001-sw streamWriter
 
 fpmalign fpmCtrl
 pupilCorAlign pupilCorAlign
+
+hwpsequence hwpSequencer
