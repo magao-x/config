@@ -4,7 +4,7 @@ isRTC          xindiserver
 holoop         cacaoInterface
 hogainctrl     userGainCtrl
 hogopt         modalGainOpt
-hofilt         modalFilter
+#hofilt         modalFilter
 wloop          cacaoInterface
 wgainctrl      userGainCtrl
 camwfs         ocam2KCtrl
@@ -22,6 +22,7 @@ modwfs         ttmModulator
 dmtweeter      bmcCtrl
 dmtweeter-avg  shmimIntegrator
 dmtweeter-recon dmRecon
+aol1_modevalDMf_mon-sw streamWriter
 rhtweeter      rhusbMon
 tweeterSpeck   dmSpeckle
 tweeterMod     dmSpeckle
@@ -29,6 +30,7 @@ tweeterModes   dmMode
 dmwoofer       alpaoCtrl
 dmwoofer-avg   shmimIntegrator
 dmwoofer-recon dmRecon
+aol0_modevalDMf_mon-sw streamWriter
 wooferModes    dmMode
 t2wOffloader   t2wOffloader
 w2tcsOffloader w2tcsOffloader
@@ -86,3 +88,6 @@ acc000-sw streamWriter
 dbIngestRTC        dbIngest
 
 camtipSR     camtipSR
+
+
+nnReconstructor dlReconstructor
