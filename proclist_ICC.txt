@@ -121,3 +121,4 @@ fpmalign fpmCtrl
 pupilCorAlign pupilCorAlign
 
 hwpsequence hwpSequencer
+lopredctrl loPredCtrl
