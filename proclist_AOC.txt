@@ -31,3 +31,5 @@ labrules           stateRuleEngine
 dbIngestAOC        dbIngest
 
 instgraph       xInstGraph
+
+labCool       koolanceCtrl
