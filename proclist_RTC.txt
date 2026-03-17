@@ -72,12 +72,13 @@ usbdu0     acronameUsbHub
 strehl     strehlEstimator
 
 aol1_modevalWFS-sw streamWriter
+aol1_imWFS2-sw streamWriter
 
 dm00disp-sw streamWriter
 dm00disp01-sw streamWriter
 dm00disp03-sw streamWriter
 dm01disp-sw streamWriter
-dm01disp02-sw streamWriter
+#dm01disp02-sw streamWriter
 dm01disp03-sw streamWriter
 
 rtc_acc000_indi sshDigger 
@@ -91,7 +92,7 @@ camtipSR     camtipSR
 
 
 #nnReconstructor dlReconstructor
-dlReconstructor nnReconstructor
+#dlReconstructor nnReconstructor
 
 pol-recon wooferTweeterRecon
 
