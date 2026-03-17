@@ -45,6 +45,11 @@ stagebs        zaberCtrl
 stagepiaa      zaberCtrl
 stageipiaa     zaberCtrl
 stagevp        zaberCtrl
+stageqwplin    zaberCtrl
+
+#binar zaber stages
+zaberLowLevelBinary zaberLowLevelBinary
+stagepollin    zaberCtrl
 
 #polarimeter
 zaberLLPol     zaberLowLevel
@@ -89,7 +94,7 @@ aol2_modevalPSDs modalPSDs
 aol2_modevalWFS_cbuff streamCircBuff
 aol2_modevalWFS-sw streamWriter
 
-logopt modalGainOpt
+#logopt modalGainOpt
 
 ncpcAlign-lyot-wfs dmPokeCenter
 ncpcAlign-bump-wfs dmPokeCenter
