@@ -70,6 +70,7 @@ fwtelsim   hsfwCtrl
 usbdu0     acronameUsbHub
 
 strehl     strehlEstimator
+sparkOG    ogTracker
 
 aol1_modevalWFS-sw streamWriter
 aol1_imWFS2-sw streamWriter
@@ -96,3 +97,5 @@ camtipSR     camtipSR
 
 pol-recon wooferTweeterRecon
 
+aosim aoSim
+loPredCtrl loPredCtrl
