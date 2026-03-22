@@ -74,6 +74,7 @@ sparkOG    ogTracker
 
 aol1_modevalWFS-sw streamWriter
 aol1_imWFS2-sw streamWriter
+aol1_imWFS2_cbuff streamCircBuff
 
 dm00disp-sw streamWriter
 dm00disp01-sw streamWriter
