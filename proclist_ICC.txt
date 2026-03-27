@@ -46,6 +46,7 @@ stagepiaa      zaberCtrl
 stageipiaa     zaberCtrl
 stagevp        zaberCtrl
 stageqwplin    zaberCtrl
+stageirf       zaberCtrl
 
 #binar zaber stages
 zaberLowLevelBinary zaberLowLevelBinary
@@ -127,3 +128,6 @@ pupilCorAlign pupilCorAlign
 
 hwpsequence hwpSequencer
 lopredctrl loPredCtrl
+
+
+camdurham cred2Ctrl
