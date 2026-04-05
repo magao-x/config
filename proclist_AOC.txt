@@ -1,14 +1,25 @@
 #Processes for the MagAO-X AOC
 #process-ID       Executable
 isAOC             xindiserver
+
+
 pdu0              trippLitePDU
 pdu1              trippLitePDU
 pdu2              trippLitePDU
 pdu3              trippLitePDU
+
+xt1121_1       xt1121Ctrl
+xt1121_2       xt1121Ctrl
+dcdu0          xt1121DCDU
+dcdu1          xt1121DCDU
+
+
 tcsi              tcsInterface
 adctrack          adcTracker
 hwptrack          hwpTracker
 ktrack            kTracker
+
+
 aoc_icc_indi      sshDigger
 aoc_rtc_indi      sshDigger
 aoc_icc_notebook      sshDigger
