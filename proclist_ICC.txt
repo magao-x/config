@@ -70,11 +70,6 @@ stagecamlensx  smc100ccCtrl
 stagecamlensy  smc100ccCtrl
 
 picomotors     picoMotorCtrl
-xt1121_1       xt1121Ctrl
-xt1121_2       xt1121Ctrl
-dcdu0          xt1121DCDU
-dcdu1          xt1121DCDU
-#usbdu0         acronameUsbHub
 usbdu1         acronameUsbHub
 dmncpc         bmcCtrl
 rhncpc         rhusbMon
