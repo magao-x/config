@@ -4,7 +4,7 @@ isRTC          xindiserver
 holoop         cacaoInterface
 hogainctrl     userGainCtrl
 hogopt         modalGainOpt
-hofilt         modalFilter
+#hofilt         modalFilter
 wloop          cacaoInterface
 wgainctrl      userGainCtrl
 camwfs         ocam2KCtrl
@@ -21,13 +21,16 @@ fxngenmodwfs   siglentSDG
 modwfs         ttmModulator
 dmtweeter      bmcCtrl
 dmtweeter-avg  shmimIntegrator
-#dmtweeter-recon dmRecon
+dmtweeter-recon dmRecon
+aol1_modevalDMf_mon-sw streamWriter
 rhtweeter      rhusbMon
 tweeterSpeck   dmSpeckle
 tweeterMod     dmSpeckle
 tweeterModes   dmMode
 dmwoofer       alpaoCtrl
 dmwoofer-avg   shmimIntegrator
+dmwoofer-recon dmRecon
+aol0_modevalDMf_mon-sw streamWriter
 wooferModes    dmMode
 t2wOffloader   t2wOffloader
 w2tcsOffloader w2tcsOffloader
@@ -67,14 +70,17 @@ fwtelsim   hsfwCtrl
 usbdu0     acronameUsbHub
 
 strehl     strehlEstimator
+sparkOG    ogTracker
 
 aol1_modevalWFS-sw streamWriter
+aol1_imWFS2-sw streamWriter
+aol1_imWFS2_cbuff streamCircBuff
 
 dm00disp-sw streamWriter
 dm00disp01-sw streamWriter
 dm00disp03-sw streamWriter
 dm01disp-sw streamWriter
-dm01disp02-sw streamWriter
+#dm01disp02-sw streamWriter
 dm01disp03-sw streamWriter
 
 rtc_acc000_indi sshDigger 
@@ -85,3 +91,12 @@ acc000-sw streamWriter
 dbIngestRTC        dbIngest
 
 camtipSR     camtipSR
+
+
+#nnReconstructor dlReconstructor
+#dlReconstructor nnReconstructor
+
+pol-recon wooferTweeterRecon
+
+aosim aoSim
+loPredCtrl loPredCtrl

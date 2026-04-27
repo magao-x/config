@@ -10,6 +10,11 @@ camsci2-dark   shmimIntegrator
 camsci2-sw      streamWriter
 camsci2-avg    shmimIntegrator
 
+camdurham   cred2Ctrl
+camdurham-dark shmimIntegrator
+camdurham-sw streamWriter
+camdurham-avg shmimIntegrator
+
 ##### camflowfs
 camflowfs       pvcamCtrl
 camflowfs-dark  shmimIntegrator
@@ -33,6 +38,8 @@ fwlowfs        filterWheelCtrl
 fwsci1         filterWheelCtrl
 fwsci2         filterWheelCtrl
 fwscind        hsfwCtrl
+
+#zaber stages
 zaberLowLevel  zaberLowLevel
 stageflowfs     zaberCtrl
 stagesci1      zaberCtrl
@@ -42,18 +49,27 @@ stagelosel     zaberCtrl
 stagebs        zaberCtrl
 stagepiaa      zaberCtrl
 stageipiaa     zaberCtrl
+stagevp        zaberCtrl
+stageqwplin    zaberCtrl
+stageirf       zaberCtrl
+
+#binar zaber stages
+zaberLowLevelBinary zaberLowLevelBinary
+stagepollin    zaberCtrl
+
+#polarimeter
+zaberLLPol     zaberLowLevel
+stagepolrot    zaberCtrl
+
+#smc100 stages
 stagek         smc100ccCtrl
 stageadc1      smc100ccCtrl
 stageadc2      smc100ccCtrl
 stagepickoff   smc100ccCtrl
 stagecamlensx  smc100ccCtrl
 stagecamlensy  smc100ccCtrl
+
 picomotors     picoMotorCtrl
-xt1121_1       xt1121Ctrl
-xt1121_2       xt1121Ctrl
-dcdu0          xt1121DCDU
-dcdu1          xt1121DCDU
-#usbdu0         acronameUsbHub
 usbdu1         acronameUsbHub
 dmncpc         bmcCtrl
 rhncpc         rhusbMon
@@ -66,7 +82,8 @@ icc_rtc_indi   sshDigger
 sysMonICC      sysMonitor
 temprack       usbtempMon
 instCool       koolanceCtrl
-labCool        koolanceCtrl
+facflow        flowRPM
+#labCool        koolanceCtrl
 loloop         cacaoInterface
 logainctrl     userGainCtrl
 camvisx        visxCtrl
@@ -79,7 +96,7 @@ aol2_modevalPSDs modalPSDs
 aol2_modevalWFS_cbuff streamCircBuff
 aol2_modevalWFS-sw streamWriter
 
-logopt modalGainOpt
+#logopt modalGainOpt
 
 ncpcAlign-lyot-wfs dmPokeCenter
 ncpcAlign-bump-wfs dmPokeCenter
@@ -98,9 +115,7 @@ dm02disp04-sw streamWriter
 dm02disp08-sw streamWriter
 dm02disp09-sw streamWriter
 
-stagellowfs        zaberCtrl
 dbIngestICC        dbIngest
-
 
 lowfs-refsub-avg shmimIntegrator
 
@@ -108,3 +123,11 @@ icc_acc001_indi sshDigger
 acc001-cbuff streamCircBuff
 acc001-psds  modalPSDs
 acc001-sw streamWriter
+
+fpmalign fpmCtrl
+pupilCorAlign pupilCorAlign
+
+hwpsequence hwpSequencer
+lopredctrl loPredCtrl
+
+

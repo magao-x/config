@@ -1,0 +1,22 @@
+#Processes for the MagAO-X AOC
+#process-ID       Executable
+
+#all tunnels
+roc_aoc_indi      sshDigger
+roc_icc_indi      sshDigger
+roc_rtc_indi      sshDigger
+roc_aoc_sup       sshDigger
+roc_aoc_rtimv     sshDigger
+roc_aoc_mzmq      sshDigger
+roc_aoc_log       sshDigger
+
+
+#local INDI server
+isROC            xindiserver
+
+#Used for psds
+mzmqClientROC_AOC mzmqClient
+
+#maggieo_x           audibleAlerts 
+
+
