@@ -1,5 +1,5 @@
 acc000_rtc_indi sshDigger
 isACC000 xindiserver
-acc000   mcp3008Ctrl
-acc000-sw streamWriter
-
+acc000   mcp3208Ctrl
+# acc000-sw streamWriter
+acc000-local-sw streamWriter
