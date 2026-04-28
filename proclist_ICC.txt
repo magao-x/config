@@ -130,4 +130,5 @@ pupilCorAlign pupilCorAlign
 hwpsequence hwpSequencer
 lopredctrl loPredCtrl
 
-
+stageqwprot1 elliptecCtrl
+stageqwprot2 elliptecCtrl
