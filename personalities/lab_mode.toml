@@ -1,4 +1,4 @@
-default_voice = "larynx:southern_english_female-glow_tts"
+default_voice = "en_GB-cori-high"
 walkups = []
 
 soundboard."ThemeSong" = { type = "file", file = "clown.wav"}
