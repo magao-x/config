@@ -1,0 +1,73 @@
+default_voice = "en_GB-cori-high"
+walkups = []
+
+soundboard."ThemeSong" = { type = "file", file = "clown.wav"}
+soundboard."Diggy" = { type = "file", file = "diggy_short.wav" }
+
+random_utterances = []
+
+
+[[react]]
+indi_id = "observers.obs_on.toggle"
+
+[[react.transition]]
+value = "On"
+actions = [
+    { type = "speak", text = "Saving data for {observers.current_observer.pfoa}." },
+]
+
+[[react.transition]]
+value = "Off"
+actions = [
+    { type = "speak", text = "Data saving stopped." },
+]
+
+[[react]]
+indi_id = "holoop.loop_state.toggle"
+
+[[react.transition]]
+value = "On"
+op = "eq"
+actions = [
+    { type = "speak", text = "High-order loop closed." },
+]
+
+[[react.transition]]
+value = "Off"
+op = "eq"
+actions = [
+    { type = "speak", text = "High-order loop open." },
+]
+
+[[react]]
+indi_id = "stageadc1.fsm.state"
+
+[[react.transition]]
+value = "NOTHOMED"
+actions = [
+    { type = "speak", text = "stage aiey dee cee one is not homed." },
+]
+
+[[react]]
+indi_id = "stageadc2.fsm.state"
+
+[[react.transition]]
+value = "NOTHOMED"
+actions = [
+    { type = "speak", text = "stage aiey dee cee two is not homed." },
+]
+
+[[react]]
+indi_id = "loloop.loop_state.toggle"
+
+[[react.transition]]
+value = "On"
+actions = [
+    { type = "speak", text = "Low-order loop closed." },
+]
+
+[[react.transition]]
+value = "Off"
+actions = [
+    { type = "speak", text = "Low-order loop open." },
+]
