@@ -1,4 +1,5 @@
 acc001_icc_indi sshDigger
 isACC001 xindiserver
 acc001   mcp3208Ctrl
-acc001-sw streamWriter
+#acc001-sw streamWriter
+
