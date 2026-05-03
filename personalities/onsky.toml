@@ -169,7 +169,7 @@ text = "Mama pee ya, here we go again"
 [[react.transition.actions]]
 type = "speak"
 text = "non è consentito il cappuccino dopo mezzogiorno"
-voice = "larynx:lisa-glow_tts"
+voice = "it_IT-riccardo-x_low"
 
 [[react]]
 indi_id = "flipacq.presetName.in"
@@ -523,4 +523,3 @@ value = "On"
 actions = [
     { type = "play", file = "noonoo.mp3" },
 ]
-
