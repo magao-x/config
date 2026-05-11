@@ -39,6 +39,10 @@ fwsci1         filterWheelCtrl
 fwsci2         filterWheelCtrl
 fwscind        hsfwCtrl
 
+#fdpr sw
+fdpr_phase-sw  streamWriter
+fdpr_amp-sw    streamWriter
+
 #zaber stages
 zaberLowLevel  zaberLowLevel
 stageflowfs     zaberCtrl
