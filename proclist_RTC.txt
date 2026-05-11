@@ -88,6 +88,12 @@ acc000-cbuff streamCircBuff
 acc000-psds  modalPSDs
 acc000-sw streamWriter
 
+aol1_mgainfact-sw      streamWriter
+aol1_mmultfact-sw      streamWriter
+aol1_mlimitfact-sw     streamWriter
+aol1_mlimitcntfrac-sw streamWriter
+
+
 dbIngestRTC        dbIngest
 
 camtipSR     camtipSR
@@ -100,3 +106,4 @@ pol-recon wooferTweeterRecon
 
 aosim aoSim
 loPredCtrl loPredCtrl
+windsocc windsoccRT
