@@ -10,10 +10,10 @@ camsci2-dark   shmimIntegrator
 camsci2-sw      streamWriter
 camsci2-avg    shmimIntegrator
 
-camdurham   cred2Ctrl
-camdurham-dark shmimIntegrator
-camdurham-sw streamWriter
-camdurham-avg shmimIntegrator
+#camdurham   cred2Ctrl
+#camdurham-dark shmimIntegrator
+#camdurham-sw streamWriter
+#camdurham-avg shmimIntegrator
 
 ##### camflowfs
 camflowfs       pvcamCtrl
@@ -87,7 +87,7 @@ sysMonICC      sysMonitor
 temprack       usbtempMon
 instCool       koolanceCtrl
 facflow        flowRPM
-#labCool        koolanceCtrl
+labCool        koolanceCtrl
 loloop         cacaoInterface
 logainctrl     userGainCtrl
 camvisx        visxCtrl
