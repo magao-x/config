@@ -123,7 +123,6 @@ dbIngestICC        dbIngest
 
 lowfs-refsub-avg shmimIntegrator
 
-icc_acc001_indi sshDigger
 acc001-cbuff streamCircBuff
 acc001-psds  modalPSDs
 acc001-sw streamWriter
