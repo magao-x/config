@@ -55,7 +55,6 @@ stagepiaa      zaberCtrl
 stageipiaa     zaberCtrl
 stagevp        zaberCtrl
 stageqwplin    zaberCtrl
-stageirf       zaberCtrl
 
 #binar zaber stages
 zaberLowLevelBinary zaberLowLevelBinary
