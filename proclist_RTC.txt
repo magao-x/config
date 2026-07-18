@@ -104,3 +104,5 @@ pol-recon wooferTweeterRecon
 aosim aoSim
 loPredCtrl loPredCtrl
 windsocc windsoccRT
+loPredCtrlAcc loPredCtrlAcc
+po4ao po4ao
