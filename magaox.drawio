@@ -915,31 +915,6 @@
                         <mxGeometry y="25" width="180" height="30" as="geometry"/>
                     </mxCell>
 
-                <mxCell id="node:stagellowfs" value="" style="group" parent="1" connectable="0" vertex="1">
-                    <mxGeometry x="560" y="950" width="180" height="100" as="geometry"/>
-                </mxCell>
-                    <mxCell id="frame:stagellowfs" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=18;" parent="node:stagellowfs" vertex="1">
-                        <mxGeometry width="180" height="100" as="geometry"/>
-                    </mxCell>
-                    <mxCell id="input:stagellowfs:in" value="in" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#FF0000;" parent="node:stagellowfs" vertex="1">
-                        <mxGeometry y="55" width="32" height="16" as="geometry"/>
-                    </mxCell>
-                    <mxCell id="output:stagellowfs:out" value="out" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#FF0000;" parent="node:stagellowfs" vertex="1">
-                        <mxGeometry x="148" y="55" width="32" height="16" as="geometry"/>
-                    </mxCell>
-                    <mxCell id="link:stagellowfs:in2out" value="" style="endArrow=classic;html=1;dashed=1;strokeColor=#00FF00;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="node:stagellowfs" source="input:stagellowfs:in" target="output:stagellowfs:out" edge="1">
-                        <mxGeometry width="50" height="50" relative="1" as="geometry"/>
-                    </mxCell>
-                    <mxCell id="state:stagellowfs" value="state" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=19;" parent="node:stagellowfs" vertex="1">
-                        <mxGeometry y="70" width="180" height="30" as="geometry"/>
-                    </mxCell>
-                    <mxCell id="title:stagellowfs" value="stagellowfs" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=19;" parent="node:stagellowfs" vertex="1">
-                        <mxGeometry width="180" height="30" as="geometry"/>
-                    </mxCell>
-                    <mxCell id="fsmstate:stagellowfs" value="fsmstate" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=19;fontColor=#3399FF;" parent="node:stagellowfs" vertex="1">
-                        <mxGeometry y="25" width="180" height="30" as="geometry"/>
-                    </mxCell>
-
                 <mxCell id="node:camllowfs" value="" style="group" parent="1" connectable="0" vertex="1">
                     <mxGeometry x="790" y="950" width="180" height="100" as="geometry"/>
                 </mxCell>
@@ -1386,11 +1361,7 @@
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
 
-                <mxCell id="beam:shllowfs2stagellowfs" value="" style="endArrow=classic;html=1;strokeColor=#FF0000;strokeWidth=2;fontColor=#FF0000;fontSize=14;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="output:shllowfs:out" target="input:stagellowfs:in">
-                    <mxGeometry relative="1" as="geometry"/>
-                </mxCell>
-
-                <mxCell id="beam:stagellowfs2camflowfs" value="" style="endArrow=classic;html=1;strokeColor=#FF0000;strokeWidth=2;fontColor=#FF0000;fontSize=14;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="output:stagellowfs:out" target="input:camllowfs:in">
+                <mxCell id="beam:shllowfs2camllowfs" value="" style="endArrow=classic;html=1;strokeColor=#FF0000;strokeWidth=2;fontColor=#FF0000;fontSize=14;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="output:shllowfs:out" target="input:camllowfs:in">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
 
