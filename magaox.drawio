@@ -733,6 +733,9 @@
                     <mxCell id="output:fwlyot:refl" value="refl" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#FF0000;" parent="node:fwlyot" vertex="1">
                         <mxGeometry x="74" y="84" width="32" height="16" as="geometry"/>
                     </mxCell>
+                    <mxCell id="link:fwlyot:in2refl" value="" style="endArrow=classic;html=1;dashed=1;strokeColor=#00FF00;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="node:fwlyot" source="input:fwlyot:in" target="output:fwlyot:refl" edge="1">
+                        <mxGeometry width="50" height="50" relative="1" as="geometry"/>
+                    </mxCell>
                     <mxCell id="state:fwlyot" value="state" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=19;" parent="node:fwlyot" vertex="1">
                         <mxGeometry y="70" width="180" height="30" as="geometry"/>
                     </mxCell>
