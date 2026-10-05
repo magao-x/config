@@ -230,7 +230,7 @@
                     </mxCell>
 
                 <mxCell id="node:dmtweeter" value="" style="group" parent="1" connectable="0" vertex="1">
-                    <mxGeometry x="100" y="350" width="180" height="100" as="geometry"/>
+                    <mxGeometry x="560" y="350" width="180" height="100" as="geometry"/>
                 </mxCell>
                     <mxCell id="frame:dmtweeter" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=18;" parent="node:dmtweeter" vertex="1">
                         <mxGeometry width="180" height="100" as="geometry"/>
@@ -255,7 +255,7 @@
                     </mxCell>
 
                 <mxCell id="node:stageadc1" value="" style="group" parent="1" connectable="0" vertex="1">
-                    <mxGeometry x="330" y="350" width="180" height="100" as="geometry"/>
+                    <mxGeometry x="100" y="350" width="180" height="100" as="geometry"/>
                 </mxCell>
                     <mxCell id="frame:stageadc1" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=18;" parent="node:stageadc1" vertex="1">
                         <mxGeometry width="180" height="100" as="geometry"/>
@@ -280,7 +280,7 @@
                     </mxCell>
 
                 <mxCell id="node:stageadc2" value="" style="group" parent="1" connectable="0" vertex="1">
-                    <mxGeometry x="560" y="350" width="180" height="100" as="geometry"/>
+                    <mxGeometry x="330" y="350" width="180" height="100" as="geometry"/>
                 </mxCell>
                     <mxCell id="frame:stageadc2" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=18;" parent="node:stageadc2" vertex="1">
                         <mxGeometry width="180" height="100" as="geometry"/>
@@ -873,7 +873,7 @@
                     <mxCell id="frame:stageflowfs" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=18;" parent="node:stageflowfs" vertex="1">
                         <mxGeometry width="180" height="100" as="geometry"/>
                     </mxCell>
-                    <!--
+                    
                     <mxCell id="input:stageflowfs:in" value="in" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#FF0000;" parent="node:stageflowfs" vertex="1">
                         <mxGeometry y="55" width="32" height="16" as="geometry"/>
                     </mxCell>
@@ -883,7 +883,7 @@
                     <mxCell id="link:stageflowfs:in2out" value="" style="endArrow=classic;html=1;dashed=1;strokeColor=#00FF00;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="node:stageflowfs" source="input:stageflowfs:in" target="output:stageflowfs:out" edge="1">
                         <mxGeometry width="50" height="50" relative="1" as="geometry"/>
                     </mxCell>
-                    -->
+                    
                     <mxCell id="state:stageflowfs" value="state" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=19;" parent="node:stageflowfs" vertex="1">
                         <mxGeometry y="70" width="180" height="30" as="geometry"/>
                     </mxCell>
@@ -942,28 +942,34 @@
 
                 <!-- focal planes -->
 
-                <mxCell id="node:stagefold" value="" style="group" parent="1" connectable="0" vertex="1">
+                <mxCell id="node:stagevp" value="" style="group" parent="1" connectable="0" vertex="1">
                     <mxGeometry x="100" y="1100" width="180" height="100" as="geometry"/>
                 </mxCell>
-                    <mxCell id="frame:stagefold" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=18;" parent="node:stagefold" vertex="1">
+                    <mxCell id="frame:stagevp" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=18;" parent="node:stagevp" vertex="1">
                         <mxGeometry width="180" height="100" as="geometry"/>
                     </mxCell>
-                    <mxCell id="input:stagefold:in" value="in" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#FF0000;" parent="node:stagefold" vertex="1">
+                    <mxCell id="input:stagevp:in" value="in" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#FF0000;" parent="node:stagevp" vertex="1">
                         <mxGeometry x="74" y="0" width="32" height="16" as="geometry"/>
                     </mxCell>
-                    <mxCell id="output:stagefold:in" value="in" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#FF0000;" parent="node:stagefold" vertex="1">
+                    <mxCell id="output:stagevp:in" value="in" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#FF0000;" parent="node:stagevp" vertex="1">
                         <mxGeometry x="148" y="42" width="32" height="16" as="geometry"/>
                     </mxCell>
-                    <mxCell id="output:stagefold:out" value="out" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#FF0000;" parent="node:stagefold" vertex="1">
+                    <mxCell id="link:stagevp:in2in" value="" style="endArrow=classic;html=1;dashed=1;strokeColor=#00FF00;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="node:stagevp" source="input:stagevp:in" target="output:stagevp:in" edge="1">
+                        <mxGeometry width="50" height="50" relative="1" as="geometry"/>
+                    </mxCell>
+                    <mxCell id="output:stagevp:out" value="out" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#FF0000;" parent="node:stagevp" vertex="1">
                         <mxGeometry x="74" y="84" width="32" height="16" as="geometry"/>
                     </mxCell>
-                    <mxCell id="state:stagefold" value="state" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=19;" parent="node:stagefold" vertex="1">
+                    <mxCell id="link:stagevp:in2out" value="" style="endArrow=classic;html=1;dashed=1;strokeColor=#00FF00;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="node:stagevp" source="input:stagevp:in" target="output:stagevp:out" edge="1">
+                        <mxGeometry width="50" height="50" relative="1" as="geometry"/>
+                    </mxCell>
+                    <mxCell id="state:stagevp" value="state" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=19;" parent="node:stagevp" vertex="1">
                         <mxGeometry y="70" width="180" height="30" as="geometry"/>
                     </mxCell>
-                    <mxCell id="title:stagefold" value="stagefold" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=19;" parent="node:stagefold" vertex="1">
+                    <mxCell id="title:stagevp" value="stagevp" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=19;" parent="node:stagevp" vertex="1">
                         <mxGeometry width="180" height="30" as="geometry"/>
                     </mxCell>
-                    <mxCell id="fsmstate:stagefold" value="fsmstate" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=19;fontColor=#3399FF;" parent="node:stagefold" vertex="1">
+                    <mxCell id="fsmstate:stagevp" value="fsmstate" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=19;fontColor=#3399FF;" parent="node:stagevp" vertex="1">
                         <mxGeometry y="25" width="180" height="30" as="geometry"/>
                     </mxCell>
 
@@ -1098,7 +1104,7 @@
                     <mxCell id="frame:stagesci1" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=18;" parent="node:stagesci1" vertex="1">
                         <mxGeometry width="180" height="100" as="geometry"/>
                     </mxCell>
-                    <!--
+                    
                     <mxCell id="input:stagesci1:in" value="in" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#FF0000;" parent="node:stagesci1" vertex="1">
                         <mxGeometry y="55" width="32" height="16" as="geometry"/>
                     </mxCell>
@@ -1108,7 +1114,7 @@
                     <mxCell id="link:stagesci1:in2out" value="" style="endArrow=classic;html=1;dashed=1;strokeColor=#00FF00;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="node:stagesci1" source="input:stagesci1:in" target="output:stagesci1:out" edge="1">
                         <mxGeometry width="50" height="50" relative="1" as="geometry"/>
                     </mxCell>
-                    -->
+                    
                     <mxCell id="state:stagesci1" value="state" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=19;" parent="node:stagesci1" vertex="1">
                         <mxGeometry y="70" width="180" height="30" as="geometry"/>
                     </mxCell>
@@ -1196,7 +1202,7 @@
                     <mxCell id="frame:stagesci2" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=18;" parent="node:stagesci2" vertex="1">
                         <mxGeometry width="180" height="100" as="geometry"/>
                     </mxCell>
-                    <!--
+                    
                     <mxCell id="input:stagesci2:in" value="in" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#FF0000;" parent="node:stagesci2" vertex="1">
                         <mxGeometry y="55" width="32" height="16" as="geometry"/>
                     </mxCell>
@@ -1206,7 +1212,7 @@
                     <mxCell id="link:stagesci2:in2out" value="" style="endArrow=classic;html=1;dashed=1;strokeColor=#00FF00;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="node:stagesci2" source="input:stagesci2:in" target="output:stagesci2:out" edge="1">
                         <mxGeometry width="50" height="50" relative="1" as="geometry"/>
                     </mxCell>
-                    -->
+                    
                     <mxCell id="state:stagesci2" value="state" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=19;" parent="node:stagesci2" vertex="1">
                         <mxGeometry y="70" width="180" height="30" as="geometry"/>
                     </mxCell>
@@ -1256,7 +1262,7 @@
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
 
-                <mxCell id="beam:dmwoofer2dmtweeter" value="" style="endArrow=classic;html=1;strokeColor=#FF0000;strokeWidth=2;fontColor=#FF0000;fontSize=14;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="output:dmwoofer:out" target="input:dmtweeter:in" edge="1">
+                <mxCell id="beam:dmwoofer2stageadc1" value="" style="endArrow=classic;html=1;strokeColor=#FF0000;strokeWidth=2;fontColor=#FF0000;fontSize=14;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="output:dmwoofer:out" target="input:stageadc1:in" edge="1">
                     <mxGeometry relative="1" as="geometry">
                         <Array as="points">
                             <mxPoint x="65" y="263"/>
@@ -1265,7 +1271,7 @@
                     </mxGeometry>
                 </mxCell>
 
-                <mxCell id="beam:dmtweeter2stageadc1" value="" style="endArrow=classic;html=1;strokeColor=#FF0000;strokeWidth=2;fontColor=#FF0000;fontSize=14;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="output:dmtweeter:out" target="input:stageadc1:in" edge="1">
+                <mxCell id="beam:dmtweeter2ttmperi" value="" style="endArrow=classic;html=1;strokeColor=#FF0000;strokeWidth=2;fontColor=#FF0000;fontSize=14;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="output:dmtweeter:out" target="input:ttmperi:in" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
 
@@ -1273,7 +1279,7 @@
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
 
-                <mxCell id="beam:stageadc2ttmperi" value="" style="endArrow=classic;html=1;strokeColor=#FF0000;strokeWidth=2;fontColor=#FF0000;fontSize=14;entryX=0.0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="output:stageadc2:out" target="input:ttmperi:in">
+                <mxCell id="beam:stageadc2dmtweeter" value="" style="endArrow=classic;html=1;strokeColor=#FF0000;strokeWidth=2;fontColor=#FF0000;fontSize=14;entryX=0.0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="output:stageadc2:out" target="input:dmtweeter:in">
                     <mxGeometry relative="1" as="geometry" />
                 </mxCell>
 
@@ -1374,11 +1380,11 @@
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
 
-                <mxCell id="beam:stageipiaa2stagefold" value="" style="endArrow=classic;html=1;strokeColor=#FF0000;strokeWidth=2;fontColor=#FF0000;fontSize=14;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="output:stageipiaa:out" target="input:stagefold:in">
+                <mxCell id="beam:stageipiaa2stagevp" value="" style="endArrow=classic;html=1;strokeColor=#FF0000;strokeWidth=2;fontColor=#FF0000;fontSize=14;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="output:stageipiaa:out" target="input:stagevp:in">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
 
-                <mxCell id="beam:stagefold2fwscind" value="" style="endArrow=classic;html=1;strokeColor=#FF0000;strokeWidth=2;fontColor=#FF0000;fontSize=14;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="output:stagefold:in" target="input:fwscind:in">
+                <mxCell id="beam:stagevp2fwscind" value="" style="endArrow=classic;html=1;strokeColor=#FF0000;strokeWidth=2;fontColor=#FF0000;fontSize=14;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="output:stagevp:in" target="input:fwscind:in">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
 
