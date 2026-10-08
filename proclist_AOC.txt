@@ -13,6 +13,7 @@ xt1121_2       xt1121Ctrl
 dcdu0          xt1121DCDU
 dcdu1          xt1121DCDU
 
+vpdu0          virtualPDU
 
 tcsi              tcsInterface
 adctrack          adcTracker
