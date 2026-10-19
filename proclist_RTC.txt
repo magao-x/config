@@ -96,7 +96,7 @@ dbIngestRTC        dbIngest
 camtipSR     camtipSR
 
 
-#nnReconstructor dlReconstructor
+nnReconstructor nnReconstructor
 #dlReconstructor nnReconstructor
 
 pol-recon wooferTweeterRecon
@@ -106,3 +106,4 @@ loPredCtrl loPredCtrl
 windsocc windsoccRT
 loPredCtrlAcc loPredCtrlAcc
 po4ao po4ao
+dmTemporalResponse dmTemporalResponse
