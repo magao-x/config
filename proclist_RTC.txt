@@ -24,6 +24,7 @@ dmtweeter-avg  shmimIntegrator
 dmtweeter-recon dmRecon
 aol1_modevalDMf_mon-sw streamWriter
 rhtweeter      rhusbMon
+dmtweeter-synco dmSyncopation
 tweeterSpeck   dmSpeckle
 tweeterMod     dmSpeckle
 tweeterModes   dmMode
@@ -106,4 +107,5 @@ loPredCtrl loPredCtrl
 windsocc windsoccRT
 loPredCtrlAcc loPredCtrlAcc
 po4ao po4ao
+dlDataCollection dlDataCollection
 dmTemporalResponse dmTemporalResponse
