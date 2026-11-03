@@ -37,10 +37,10 @@ mzmqServerAOC     mzmqServer
 mzmqServerAOCcamwfs mzmqServer
 sysMonAOC         sysMonitor
 observers         observerCtrl
-purepyindi_example purepyindi_example
-maggieo_x           audibleAlerts 
+#purepyindi_example purepyindi_example
+#maggieo_x           audibleAlerts 
 labrules           stateRuleEngine
-dbIngestAOC        dbIngest
+#dbIngestAOC        dbIngest
 
 instgraph       xInstGraph
 
