@@ -37,11 +37,9 @@ mzmqServerAOC     mzmqServer
 mzmqServerAOCcamwfs mzmqServer
 sysMonAOC         sysMonitor
 observers         observerCtrl
-#purepyindi_example purepyindi_example
-#maggieo_x           audibleAlerts 
+py:maggieo_x           audibleAlerts 
 labrules           stateRuleEngine
-#dbIngestAOC        dbIngest
+py:dbIngestAOC        dbIngest
 
 instgraph       xInstGraph
 
-#labCool       koolanceCtrl
