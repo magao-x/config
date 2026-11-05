@@ -27,7 +27,7 @@ aoc_icc_notebook      sshDigger
 aoc_rtc_notebook      sshDigger
 aoc_icc_milkzmq   sshDigger
 aoc_rtc_milkzmq   sshDigger
-aoc_acc000_indi sshDigger
+#aoc_acc000_indi sshDigger
 
 mzmqClientAOC_ICC mzmqClient
 mzmqClientAOC_RTC mzmqClient
@@ -37,7 +37,7 @@ mzmqServerAOC     mzmqServer
 mzmqServerAOCcamwfs mzmqServer
 sysMonAOC         sysMonitor
 observers         observerCtrl
-purepyindi_example purepyindi_example
+#purepyindi_example purepyindi_example
 maggieo_x           audibleAlerts 
 labrules           stateRuleEngine
 dbIngestAOC        dbIngest
