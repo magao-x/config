@@ -5,6 +5,7 @@ holoop         cacaoInterface
 hogainctrl     userGainCtrl
 hogopt         modalGainOpt
 #hofilt         modalFilter
+holoop-time     loopTimingMonitor
 wloop          cacaoInterface
 wgainctrl      userGainCtrl
 camwfs         ocam2KCtrl
@@ -86,6 +87,7 @@ acc000 accelSim
 acc000-cbuff streamCircBuff
 acc000-psds  modalPSDs
 acc000-sw streamWriter
+#accelFFCtrl accelFFCtrl
 
 aol1_mgainfact-sw      streamWriter
 aol1_mmultfact-sw      streamWriter
@@ -98,15 +100,15 @@ dbIngestRTC        dbIngest
 #camtipSR     camtipSR
 
 
-nnReconstructor nnReconstructor
+#nnReconstructor nnReconstructor
 
-pol-recon wooferTweeterRecon
+#pol-recon wooferTweeterRecon
 
 #aosim aoSim
-loPredCtrl loPredCtrl
-windsocc windsoccRT
-loPredCtrlAcc loPredCtrlAcc
-po4ao po4ao
-po4aoTrainer po4aoTrainer
-dlDataCollection dlDataCollection
-dmTemporalResponse dmTemporalResponse
+#loPredCtrl loPredCtrl
+#windsocc windsoccRT
+#loPredCtrlAcc loPredCtrlAcc
+#po4ao po4ao
+#po4aoTrainer po4aoTrainer
+#dlDataCollection dlDataCollection
+#dmTemporalResponse dmTemporalResponse
