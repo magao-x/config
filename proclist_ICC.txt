@@ -15,11 +15,11 @@ camsci2-avg    shmimIntegrator
 #camdurham-sw streamWriter
 #camdurham-avg shmimIntegrator
 
-##### camham
-camham                  orcaCtrl
-camham-dark             shmimIntegrator
-camham-avg              shmimIntegrator
-camham-sw               streamWriter
+##### camscc
+camscc                  orcaCtrl
+camscc-dark             shmimIntegrator
+camscc-avg              shmimIntegrator
+camscc-sw               streamWriter
 
 ##### camflowfs
 camflowfs       pvcamCtrl
