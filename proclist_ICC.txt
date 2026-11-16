@@ -128,9 +128,10 @@ dbIngestICC        dbIngest
 
 lowfs-refsub-avg shmimIntegrator
 
-acc001-cbuff streamCircBuff
-acc001-psds  modalPSDs
-acc001-sw streamWriter
+# acc001 is not in use.
+#acc001-cbuff streamCircBuff
+#acc001-psds  modalPSDs
+#acc001-sw streamWriter
 
 fpmalign fpmCtrl
 pupilCorAlign pupilCorAlign
