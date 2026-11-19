@@ -20,6 +20,7 @@ tcsi              tcsInterface
 adctrack          adcTracker
 hwptrack          hwpTracker
 ktrack            kTracker
+qwptrack	  qwpTracker
 
 
 aoc_icc_indi      sshDigger
