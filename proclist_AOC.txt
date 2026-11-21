@@ -14,11 +14,13 @@ dcdu0          xt1121DCDU
 dcdu1          xt1121DCDU
 
 vpdu0          virtualPDU
+vpdu1          virtualPDU
 
 tcsi              tcsInterface
 adctrack          adcTracker
 hwptrack          hwpTracker
 ktrack            kTracker
+qwptrack	  qwpTracker
 
 
 aoc_icc_indi      sshDigger
@@ -27,7 +29,7 @@ aoc_icc_notebook      sshDigger
 aoc_rtc_notebook      sshDigger
 aoc_icc_milkzmq   sshDigger
 aoc_rtc_milkzmq   sshDigger
-aoc_acc000_indi sshDigger
+#aoc_acc000_indi sshDigger
 
 mzmqClientAOC_ICC mzmqClient
 mzmqClientAOC_RTC mzmqClient
@@ -37,7 +39,7 @@ mzmqServerAOC     mzmqServer
 mzmqServerAOCcamwfs mzmqServer
 sysMonAOC         sysMonitor
 observers         observerCtrl
-purepyindi_example purepyindi_example
+#purepyindi_example purepyindi_example
 maggieo_x           audibleAlerts 
 labrules           stateRuleEngine
 dbIngestAOC        dbIngest

@@ -15,6 +15,12 @@ camsci2-avg    shmimIntegrator
 #camdurham-sw streamWriter
 #camdurham-avg shmimIntegrator
 
+##### camscc
+camscc                  orcaCtrl
+camscc-dark             shmimIntegrator
+camscc-avg              shmimIntegrator
+camscc-sw               streamWriter
+
 ##### camflowfs
 camflowfs       pvcamCtrl
 camflowfs-dark  shmimIntegrator
@@ -55,6 +61,7 @@ stagepiaa      zaberCtrl
 stageipiaa     zaberCtrl
 stagevp        zaberCtrl
 stageqwplin    zaberCtrl
+stageff        zaberCtrl
 
 #binar zaber stages
 zaberLowLevelBinary zaberLowLevelBinary
@@ -122,9 +129,10 @@ dbIngestICC        dbIngest
 
 lowfs-refsub-avg shmimIntegrator
 
-acc001-cbuff streamCircBuff
-acc001-psds  modalPSDs
-acc001-sw streamWriter
+# acc001 is not in use.
+#acc001-cbuff streamCircBuff
+#acc001-psds  modalPSDs
+#acc001-sw streamWriter
 
 fpmalign fpmCtrl
 pupilCorAlign pupilCorAlign
@@ -132,5 +140,6 @@ pupilCorAlign pupilCorAlign
 hwpsequence hwpSequencer
 lopredctrl loPredCtrl
 
+elliptecqwp elliptecLowLevel
 stageqwprot1 elliptecCtrl
 stageqwprot2 elliptecCtrl
