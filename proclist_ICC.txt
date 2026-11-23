@@ -143,3 +143,6 @@ lopredctrl loPredCtrl
 elliptecqwp elliptecLowLevel
 stageqwprot1 elliptecCtrl
 stageqwprot2 elliptecCtrl
+
+autojay-camflowfs autoJay
+
