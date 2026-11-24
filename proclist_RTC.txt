@@ -80,12 +80,12 @@ dm00disp03-sw streamWriter
 dm01disp-sw streamWriter
 dm01disp03-sw streamWriter
 
-rtc_acc000_indi sshDigger 
-#acc000 accelSim
+#rtc_acc000_indi sshDigger 
+acc000 accelSim
 acc000-cbuff streamCircBuff
 acc000-psds  modalPSDs
 acc000-sw streamWriter
-#loPredCtrlAcc loPredCtrlAcc
+loPredCtrlAcc loPredCtrlAcc
 #accelFFCtrl accelFFCtrl
 
 aol1_mgainfact-sw      streamWriter
@@ -106,9 +106,11 @@ nnReconstructor nnReconstructor
 #aosim aoSim
 #loPredCtrl loPredCtrl
 #windsocc windsoccRT
-#loPredCtrlAcc loPredCtrlAcc
 po4ao po4ao
 po4aoTrainer po4aoTrainer
 dlDataCollection dlDataCollection
 #dmTemporalResponse dmTemporalResponse
 counterOffload	counterOffload
+aol0_tweeterOffload-sw streamWriter
+
+qwppupil	qwpPupilTracker
