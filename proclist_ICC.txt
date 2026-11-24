@@ -146,3 +146,4 @@ stageqwprot2 elliptecCtrl
 
 autojay-camflowfs autoJay
 
+fxngensci siglentSDG
