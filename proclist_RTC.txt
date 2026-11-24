@@ -17,6 +17,7 @@ camwfs-fit     pupilFit
 camwfs-align   alignLoop
 camwfs-refrms  refRMS
 camwfs-refsub-avg shmimIntegrator
+camwfs-cbuff   streamCircBuff
 fxngensync     siglentSDG
 fxngenmodwfs   siglentSDG
 modwfs         ttmModulator
@@ -86,7 +87,6 @@ acc000-cbuff streamCircBuff
 acc000-psds  modalPSDs
 acc000-sw streamWriter
 loPredCtrlAcc loPredCtrlAcc
-#accelFFCtrl accelFFCtrl
 
 aol1_mgainfact-sw      streamWriter
 aol1_mmultfact-sw      streamWriter
@@ -109,7 +109,7 @@ nnReconstructor nnReconstructor
 po4ao po4ao
 po4aoTrainer po4aoTrainer
 dlDataCollection dlDataCollection
-#dmTemporalResponse dmTemporalResponse
+dmTemporalResponse dmTemporalResponse
 counterOffload	counterOffload
 aol0_tweeterOffload-sw streamWriter
 
