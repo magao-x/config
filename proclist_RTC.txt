@@ -20,6 +20,7 @@ camwfs-refsub-avg shmimIntegrator
 camwfs-cbuff   streamCircBuff
 fxngensync     siglentSDG
 fxngenmodwfs   siglentSDG
+fxngensci      siglentSDG
 modwfs         ttmModulator
 dmtweeter      bmcCtrl
 dmtweeter-avg  shmimIntegrator
