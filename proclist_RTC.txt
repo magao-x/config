@@ -14,6 +14,7 @@ camwfs-sw      streamWriter
 #camwfs-slopes  pwfsSlopeCalc
 camwfs-avg     shmimIntegrator
 camwfs-fit     pupilFit
+camwfs-xc-fit  pupilXCFit
 camwfs-align   alignLoop
 camwfs-refrms  refRMS
 camwfs-refsub-avg shmimIntegrator
@@ -81,6 +82,8 @@ dm00disp03-sw streamWriter
 dm01disp-sw streamWriter
 dm01disp03-sw streamWriter
 dm01disp04-sw streamWriter 
+#dm01disp05-sw streamWriter
+
 aol0_tweeterOffload-sw streamWriter
 
 rtc_acc000_indi sshDigger 
