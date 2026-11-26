@@ -145,5 +145,6 @@ stageqwprot1 elliptecCtrl
 stageqwprot2 elliptecCtrl
 
 autojay-camflowfs autoJay
+autojay-camflowfs-ctrl closedLoopIndi
 
 fxngensci siglentSDG
