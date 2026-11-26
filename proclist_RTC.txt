@@ -80,9 +80,11 @@ dm00disp-sw streamWriter
 dm00disp03-sw streamWriter
 dm01disp-sw streamWriter
 dm01disp03-sw streamWriter
+dm01disp04-sw streamWriter 
+aol0_tweeterOffload-sw streamWriter
 
-#rtc_acc000_indi sshDigger 
-acc000 accelSim
+rtc_acc000_indi sshDigger 
+#acc000 accelSim
 acc000-cbuff streamCircBuff
 acc000-psds  modalPSDs
 acc000-sw streamWriter
@@ -104,7 +106,7 @@ nnReconstructor nnReconstructor
 #pol-recon wooferTweeterRecon
 
 #aosim aoSim
-#loPredCtrl loPredCtrl
+loPredCtrl loPredCtrl
 #windsocc windsoccRT
 po4ao po4ao
 po4aoTrainer po4aoTrainer
